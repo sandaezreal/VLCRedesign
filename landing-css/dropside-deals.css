@@ -1,9 +1,24 @@
+/* carousel applied */
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+/* carousel applied */
+
 /* sub-body-1 starts here*/
 #sub-body-1 {
-    background-image: url(../VLC-images/landing-image/faq-image/faq-header.png);
+    /*background-image: url(../VLC-images/landing-image/lease-and-buy/header-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 700px;*/
     color: white;
     text-align: center;
 }

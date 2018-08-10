@@ -24,8 +24,9 @@ body,
 }
 /* sub-body-1 ends here */
 
+
+/* center-oval starts here */
 #center-oval {
-    margin-top: 100px;
     text-align: center;
     border-radius: 43px 43px 43px 43px;
     width: 740px;
@@ -34,9 +35,33 @@ body,
     background: transparent\9;  
     background:rgba(255,255,255,0.6);  
 }
-
 /* center-oval ends here */
 
+
+
+/* container-text-1 starts here */
+#container-text-1 {
+   padding-top: 5%;
+}
+
+#container-header {
+    font-size: 60px;
+}
+
+#container-subheader {
+    font-size: 43px;
+}
+
+.landing-items {
+    opacity: 0 !important;
+}
+
+/* container-text-1 ends here */
+
+#btn-find-van {
+    background-color: #40ae49 !important;
+    border-color: #40ae49 !important;
+}
 
 .dropdown-option {
     border-color: black;
@@ -50,39 +75,10 @@ body,
     background:rgba(255,255,255,0.1); 
 }
 
-
-.landing-items {
-    opacity: 0 !important;
-}
-
-/* container-text-1 ends here */
-
-#btn-find-van {
-    background-color: #40ae49 !important;
-    border-color: #40ae49 !important;
-}
-
-
 select {
     text-align-last: center;
     color: black;
 }
-
-
-/* container-text-1 starts here */
-#container-text-1 {
-   padding-top: 25%;
-}
-
-#container-header {
-    font-size: 60px;
-}
-
-#container-subheader {
-    font-size: 43px;
-}
-
-/* container-text-1 ends here */
 
 
 /* sub-body-2 starts here */
@@ -92,10 +88,6 @@ select {
 /* sub-body-2 ends here */
 
 /* sub-body-3 starts here */
-#sub-body-3 {
-    text-align: center;
-}
-/* sub-body-3 ends here */
 
 
 #container-text-2 {
@@ -119,13 +111,43 @@ select {
 
 /* paragraphs styles starts here */
 .paragraph {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 55px;
+    margin-right: 55px;
     padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 20px;
+}
+/* paragraphs styles ends here  */
+
+/* paragraphs styles starts here */
+.paragraph-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 6%;
     padding-bottom: 4%;
     font-size: 25px;
 }
 /* paragraphs styles ends here  */
+
+.chevron-link {
+    text-decoration: none;
+    color: black;
+}
+
+.chevron-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.chevron-items {
+    text-align: left !important;
+    padding-left: 25%;
+    font-size: 25px;
+}
+
+.chevron-color {
+    color: #40ae49;
+}
 
 /* paragraphs styles starts here */
 #paragraph-footer {
@@ -152,6 +174,9 @@ select {
 
 #footer-image {
     width: 65%;
+}
+#sub-body-3 {
+    text-align: center;
 }
 
 
