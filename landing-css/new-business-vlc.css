@@ -1,0 +1,377 @@
+/* carousel applied */
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+/* carousel applied */
+
+/* sub-body-1 starts here*/
+#sub-body-1 {
+    /*background-image: url(../VLC-images/landing-image/lease-and-buy/header-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;*/
+    color: white;
+    text-align: center;
+}
+/* sub-body-1 ends here */
+
+
+/* container-text-1 starts here */
+#container-text-1 {
+   padding-top: 5%;
+}
+
+#container-header {
+    font-size: 60px;
+}
+
+#container-subheader {
+    font-size: 43px;
+}
+
+/* container-text-1 ends here */
+
+
+/* center-oval starts here */
+#center-oval {
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 43px 43px 43px 43px;
+    width: 740px;
+    height: 80px;
+    background:rgb(255,255,255);  
+    background: transparent\9;  
+    background:rgba(255,255,255,0.6);  
+}
+/* center-oval ends here */
+
+#btn-find-van {
+    background-color: #40ae49 !important;
+    border-color: #40ae49 !important;
+}
+
+.dropdown-option {
+    border-color: black;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    width: 210px;
+    height: 40px;
+    margin-top: 20px;
+    background:rgb(255,255,255);  
+    background: transparent\9;  
+    background:rgba(255,255,255,0.1); 
+}
+
+select {
+    text-align-last: center;
+    color: black;
+}
+
+/* sub-body-2 starts here */
+#sub-body-2 {
+    text-align: center;
+}
+/* sub-body-2 ends here */
+
+.paragraph {
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 20px;
+}
+
+
+.mid-par {
+    margin-left: 185px;
+    margin-right: 185px;
+}
+
+#container-text-2 {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+#container-header-2 {
+    font-size: 38px;
+}
+
+#container-subheader-2 {
+    font-size: 20px;
+}
+
+.header-col {
+    background-color: #f8f7f6;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 1px 1px 6px gray;
+}
+
+.paragraph-1 {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+#btn-build-quote {
+    margin-top: 18px;
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+}
+
+.text-color-green {
+    color: #40ae49;
+}
+
+.text-color-red {
+    color: #d41111;
+}
+
+.price-text {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 60px;
+}
+
+/* sub-body-3 starts here */
+#sub-body-3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../VLC-images/landing-image/new-business-vlc/new-business-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 100px
+}
+/* sub-body-3 ends here */
+
+#btn-mid {
+    margin-top: 300px;
+    margin-bottom: 150px;
+    border-radius: 30px 30px 30px 30px;
+    width: 900;
+}
+
+.green-divider {
+    border-radius: 30px 30px 30px 30px;
+    height: 10px;
+    width: 150px;
+    background-color: #40ae49;
+    box-shadow: 2px 2px 50px #40ae49;
+}
+
+/* This is the content of two columns for latest van news */
+.latest-van-news {
+    padding-top: 90px;
+    margin-bottom: 190px;
+    text-align: left;
+    
+}
+/* This is the content of two columns for latest van news */
+
+/* This is the header content latest van news */
+#latest-van-text-1 {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+/* This is the header content latest van news */
+
+#latest-van-image {
+    border-color: white;
+    border-width: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#how-make-process-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#sub-how-make-process {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+#green-divider-how-make-process {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+#how-make-process-img1-v1 {
+    padding-top: 300px;
+}
+
+
+#how-make-process-img1 { 
+    width: 500px;
+}
+
+#how-make-process-img2 {
+    width: 270px;
+    box-shadow: 2px 2px 16px;
+}
+
+#how-make-process-img2-v1 {
+    padding-top: 230px;
+    padding-left: 130px;
+}
+
+.border-how-make-process {
+    border-bottom: 3px solid lightgray;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#btn-request-callback {
+    width: 250px;   
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+#how-make-process-img2-v2 {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+#how-make-process-img3 {
+    width: 370px;
+}
+
+.underline-green {
+    text-decoration: underline;
+    text-decoration-color: #40ae49;
+}
+
+.how-make-process-link {
+    color: black;
+}
+
+#how-make-process-img2-v3 {
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+#how-make-process-img4 {
+    width: 300px;
+}
+
+#how-make-process-img2-v4 {
+    padding-top: 70px;
+    padding-left: 80px;
+}
+
+#how-make-process-img5 {
+    width: 320px;
+}
+
+#how-make-process-img2-v5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+}
+
+#how-make-process-img6 {
+    width: 220px;
+    margin-left: 30px;
+}
+
+#btn-open-account {
+    width: 250px;   
+    border-radius: 30px 30px 30px 30px;
+}
+
+#how-make-process-img2-v6 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+}
+
+#how-make-process-img7 {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 450px;
+}
+
+#sub-body-5 {
+    margin-bottom: 120px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) { 
+    #center-oval {
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 43px 43px 43px 43px;
+        width: 100%;
+        height: 180px;
+        background-color: #c6d0e6;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+   
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
