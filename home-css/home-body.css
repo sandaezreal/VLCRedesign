@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab');
+
 /* sub-body-1 starts here*/
 #sub-body-1 {
     background-image: url(../VLC-images/reusable-image/homepage-header-v1.png);
@@ -6,6 +8,7 @@
     height: 700px;
     color: white;
     text-align: center;
+    font-family: 'PT Sans', sans-serif;
 }
 /* sub-body-1 ends here */
 

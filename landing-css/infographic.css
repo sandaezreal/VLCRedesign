@@ -1,0 +1,383 @@
+
+/* sub-body-1 starts here*/
+#sub-body-1 {
+    background-image: url(../VLC-images/reusable-image/homepage-header-v1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: white;
+    text-align: center;
+}
+/* sub-body-1 ends here */
+
+
+#container-header {
+    font-size: 60px;
+}
+
+#container-subheader {
+    font-size: 38px;
+}
+
+/* this is a container */
+#graph-container {
+    margin-top: 120px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* this is a row */
+#header-reason {
+    height: auto;
+    background-color: #515150;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    font-size: 40px;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+/* this is a row */
+#wheel-img {
+    text-align: center;
+    background-color: #5fab9e;
+}
+
+/* this is an image display */
+#stirring-wheel {
+    width: 100%;
+    height: auto;
+    margin-top: 17px;
+}
+
+/* this is an image display */
+#graph-icon {
+    width: 70px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#result-icon {
+    width: 20%;
+    margin-top: 21px; 
+    margin-left: 280px;
+}
+
+/* this is an image display */
+#graph-image-display {
+    margin-top: 40px;
+    width: 96%;
+    height: auto;
+}
+
+/* this is a container */
+#graph-display {
+    background-color: #faf9f6;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 40px;
+    font-size: 35px;
+}
+
+#graph-display-footer {
+    background-color: #faf9f6;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    text-align: right;
+    border-bottom: 2px solid black;
+}
+
+.table-display-main {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.alignment-dislike {
+    text-align: right;
+}
+
+#row-color-blue {
+    background-color: #0990c8;
+}
+
+#row-color-orange {
+    background-color: #df8b1b;
+}
+
+#row-color-torquose {
+    background-color: #5fab9e;
+}
+
+#row-color-gray {
+    background-color: #515150;
+}
+
+#row-color-applegreen {
+    background-color: #b2dc68;
+}
+
+#row-color-yellow {
+    background-color: #fae437;
+}
+
+#row-color-red {
+    background-color: #ed424f;
+}
+
+#row-color-lightbrown {
+    background-color: #bab58f;
+    border-bottom: 2px solid black;
+}
+
+.definition-logo {
+    width: 100%;
+}
+
+.dislike-logo {
+    margin-top: 18%;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50px;
+}
+
+.paragraph-1 {
+    padding-top: 3%;
+    font-size: 16px;
+    color: white;
+}
+
+#background-graph {
+    background-image: url(../VLC-images/landing-image/infographic-image/pie-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#euro-currency {
+    padding-right: 30px;
+    padding-top: 270px;
+    text-align: right;
+}
+
+#percentage-1 {
+    padding-left: 70px;
+    padding-top: 150px;
+    text-align: left;
+}
+
+#percentage-2{
+    padding-right: 250px;
+    padding-top: 290px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+#header-driving-cycle {
+    background-color: #ed424f;
+    padding: 50px;
+}
+
+/* this is a container */
+#conclusion-display {
+    background-color: #faf9f6;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#red-container {
+    background-color: #ed424f;
+    border-radius: 20px 20px 0px 20px;
+}
+
+#red-container-v1 {
+    color: white;
+    background-color: #ed424f;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px 70px 10px 40px;
+}
+
+#black-container {
+    background-color: #515150;
+    border-radius: 20px 20px 20px 20px;
+    padding: 30px;
+    color: white;
+    font-size: 19px;
+}
+
+.sources-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.sources-link {
+    color: white;
+}
+
+#paragraph-1 {
+    padding-left: 10px;
+}
+
+#row-width {
+    width: 75%;
+     padding-left: 15px;    
+}
+
+#conclusion-header-1 {
+    background-color: #2c2a28;
+    color: white;
+    padding: 10px 0px 10px 30px;
+    font-size: 250%;
+    border-radius: 20px 0px 0px 0px;
+}
+
+#conclusion-header-2 {
+    text-align: center;
+    background-color: #ebea74; 
+    color: black;
+    padding: 10px;
+    border-radius: 0px 20px 0px 0px;
+}
+
+#clock-icon {
+    width: 45%;
+}
+
+.par-title {
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+
+.paragraph-2 {
+    margin-bottom: 8%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+
+.paragraph-3 {
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+
+#footer-definition {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+    
+.green-divider {
+    
+    border-radius: 30px 30px 30px 30px;
+    height: 10px;
+    width: 150px;
+    background-color: #40ae49;
+    box-shadow: 2px 2px 50px #40ae49;
+}
+
+.image-display {
+    text-align: center; 
+}
+
+.image-width {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 3px black;
+    width: 40%;
+}
+
+/* sub-body-2 starts here */
+#sub-body-2 {
+    
+}
+/* sub-body-2 ends here */
+
+#sub-body-3 {
+    text-align: center;
+}
+
+
+#container-text-3 {
+   padding-top: 8%;
+}
+
+#footer-sources {
+    margin-left: 130px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 30px;
+    color: black;
+    font-size: 19px;
+}
+
+.sources-link-1:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.sources-link-1 {
+    color: black;
+}
+
+/* paragraphs styles starts here */
+#paragraph-footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-size: 25px;
+}
+/* paragraphs styles ends here */
+
+
+#btn-footer {
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+    box-shadow: 2px 2px 50px #40ae49;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

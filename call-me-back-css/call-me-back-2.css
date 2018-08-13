@@ -1,0 +1,165 @@
+/* this is for media player */
+
+/* 
+  The following rule sets the
+  size of the player
+*/
+.video-js {
+  width: 40%;
+  height: auto;}
+/*****************************/
+/*****************************/
+/*
+  The following TWO rules set
+  the location and size of
+  the big play button
+*/
+/* 
+  This rule sets the color,
+   opacity, size and position of the
+   big play button 
+*/
+.video-js.video-js .vjs-big-play-button {
+  background-color: #ffffff;
+  opacity: .7;
+  width: 200px;
+  height: 190px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #e5e5e5;
+}
+/* 
+  This rule sets the location and size
+  of the circular play icon in the
+  big play button 
+*/
+.video-js.video-js .vjs-big-play-button:before {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 4em;
+  color: #40ae49;
+}
+
+/* this is for media player */
+
+#header-call {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+#form-container {
+    margin-left: 390px;
+    margin-right: 390px;
+}
+
+
+.form-control {
+    margin-top: 20px;
+    border-radius: 30px 30px 30px 30px; 
+}
+
+
+#container-header {
+    font-size: 60px;
+}
+
+#container-subheader {
+    font-size: 43px;
+}
+
+.landing-items {
+    opacity: 0 !important;
+}
+
+/* container-text-1 ends here */
+
+#btn-find-van {
+    background-color: #40ae49 !important;
+    border-color: #40ae49 !important;
+}
+
+
+#container-text-3 {
+   padding-top: 8%;
+}
+
+
+/* paragraphs styles starts here */
+#paragraph-footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-size: 25px;
+}
+/* paragraphs styles ends here */
+
+#btn-chevron {
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+    box-shadow: 2px 2px 50px #40ae49;
+}
+
+#form-footer {
+    border: 1px solid lightgray;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+#btn-footer {
+    margin-top: 50px;
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+    box-shadow: 2px 2px 50px #40ae49;
+}
+
+#footer-image {
+    width: 65%;
+}
+#sub-body-3 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
