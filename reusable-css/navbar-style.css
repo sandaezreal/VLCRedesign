@@ -1,5 +1,6 @@
 .navbar {
     background-color: white !important;
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -11,13 +12,3 @@
     height: 70px;
 }
 
-@media (max-width: 576px) { 
-    #vlc-logo {
-        height: 60px;
-    }
-    
-    .navbar {
-        background-color: white !important;
-    }
-    
-}

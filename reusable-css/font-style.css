@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto');
+
+.pt-sans {    
+    font-family: 'PT Sans', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto Slab', serif; 
+}
+
+/* home */
+p {
+   font-family: 'PT Sans', sans-serif; 
+}
+
+
+#how-make-process-header {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* home */

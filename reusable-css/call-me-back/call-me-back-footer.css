@@ -1,0 +1,109 @@
+/* home-footer-container starts here */
+#home-footer {
+    
+    background-image: url(../../VLC-Images/reusable-image/landing-page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    color: black;
+}
+/* home-footer-container ends here */
+
+#row-margin-footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+/* mid-text starts here */
+#mid-text {
+    font-size: 55px;
+    text-align: center;
+}
+/* mid-text ends here */
+
+/* button get my car starts here */
+#btn-chevron {
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+    box-shadow: 2px 2px 50px #40ae49;
+}
+/* button get my car en ds here */
+
+/* button get my car starts here
+#contact-us {
+    font-size: 55px;
+}
+/* button get my car ends here */
+
+#vlc_logo {
+    width: 200px;
+}
+
+#contact {
+    text-align: right;
+}
+
+/* Links, Contact number, email and logo starts here */
+#bottom-text {
+    font-size: 13px;
+    color: white;
+    padding-top: 14%;
+}
+/* Links, Contact number, email and logo ends here */
+
+table#footer-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Most bottom part text starts here */
+#bottom-center-text {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+/* Most bottom part text ends here */
+
+#bvra-logo {
+    width: 20%;
+}
+
+#leaseplan-logo {
+    width: 25%;
+}
+
+/* footer links hover and color starts here */
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: white;
+    text-decoration: none;
+}
+/* footer links hover and color starts here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
