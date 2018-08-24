@@ -1,0 +1,164 @@
+/* VARIABLES ------------------------------------------------- */
+
+:root {
+    --footer-v1:   url(../VLC-Images/reusable-image/footer-v1.png);
+    --footer-v2: url(../VLC-Images/reusable-image/footer-v2.png);
+    --footer-v3:  url(../VLC-Images/reusable-image/footer-v3.png);
+  
+    --height: 850px; /* custom-quote-approval     */
+    --padding: 150px; /* step 1 */
+    --font-stack-primary: 'Raleway', sans-serif;
+  
+    --font-stack-secondary: 'Bree Serif', serif;
+    
+   
+  }
+/* home-footer-container starts here */
+#custome-quote-footer-v1 {
+    background-image:    var(--footer-v1); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;  
+}
+
+#custome-quote-footer-v2 {
+    background-image: var(--footer-v2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: auto;
+    color: black;  
+}
+
+#custome-quote-footer-v3 { 
+    background-image: var(--footer-v3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: 900px;
+    color: black;  
+}
+
+
+#row-margin{
+    display: inline;
+}
+/* mid-text starts here */
+#mid-text {
+    padding-top: 100px;
+    text-align: center;
+}
+/* mid-text ends here */
+
+/* button get my car starts here */
+#btn-chevron {
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+}
+/* button get my car en ds here */
+
+/* button get my car starts here
+#contact-us {
+    font-size: 55px;
+}
+/* button get my car ends here */
+
+#vlc_logo {
+    width: 200px;
+}
+
+#row-margin-footer{
+    padding-top: 150px;
+}
+
+
+/* Links, Contact number, email and logo starts here */
+#bottom-text {
+    font-size: 13px;
+    color: white;
+    padding-top: 350px;
+    text-align: left;
+}
+/* Links, Contact number, email and logo ends here */
+
+table#footer-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Most bottom part text starts here */
+#bottom-center-text {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+/* Most bottom part text ends here */
+
+#bvra-logo {
+    width: 7%;
+}
+
+/* footer links hover and color starts here */
+.footer-link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+/* footer links hover and color starts here */
+
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+    #custome-quote-footer-v1,#custome-quote-footer-v2,#custome-quote-footer-v3{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    #mid-text {
+        padding-top: 0px;
+        text-align: center;
+        float: left
+    }
+    #bottom-text {
+        font-size: 7px;
+        color: white;
+        width: 97.5%;
+        padding-top: 0px;
+    }
+    #vlc_logo {
+        text-align: center;
+    }
+    #bvra-logo {
+        display: none;
+    }
+
+    
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}
+
+
+

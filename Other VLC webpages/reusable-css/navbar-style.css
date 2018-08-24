@@ -1,0 +1,45 @@
+.navbar-blue {
+    background-color:#052d87 !important;
+}
+
+.navbar-white {
+    background-color: white !important;
+}
+
+#btn-call {
+    border-radius: 30px 30px 30px 30px;
+}
+
+.edit-option-image {
+    height: 40px;
+}
+
+    
+#vlc-logo {
+    height: 70px;
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    #vlc-logo {
+        height: 70px;
+        width: 120px;
+    }
+
+    
+}
+
