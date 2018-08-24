@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|PT+Sans');
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: #666666;
+    text-align: left;
+}
+
+
+#approve-image {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+#form-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+#form-subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+#sub-body-1 {
+    height: 800px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important     
+}
+
+
+/* Table Button Buildme */
+#btn-buildme {
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* step 1 table  */
+#step1-table-1 {
+    text-align: center;
+
+}
+.container-select-mercedes {
+    color: white;   
+    padding-bottom:  40px;
+    
+}
+
+.bran-detail{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.containter-text {
+    color: #58585a;   
+}
+
+.feater-color {
+    color: #40ae49;
+    padding-bottom:  40px;
+}
+
+#btn-apply-now {
+    border-radius: 30px 30px 30px 30px;
+    width: 180px;
+
+}
+
+#btn-call-me{
+    border-radius: 30px 30px 30px 30px;
+    width: 180px;
+    border: 1px solid     
+}
+
+.form-approved{
+    max-width: 580px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+
+}
+
+.txt-align{
+    padding-bottom: 30px;
+}
+.content-txt{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#btn-call-me{
+    color: #40ae49;
+    border: 1px solid #40ae49;  
+}
+
+
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        margin-left: auto;
+    }
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}

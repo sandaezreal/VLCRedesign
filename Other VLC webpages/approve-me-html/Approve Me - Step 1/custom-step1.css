@@ -1,0 +1,146 @@
+
+#sub-body-1 {
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important     
+}
+
+
+/* Table Button Buildme */
+#btn-buildme {
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* step 1 table  */
+#step1-table-1 {
+    text-align: center;
+
+}
+.container-select-mercedes {
+    color: white;   
+    padding-bottom:  40px;
+    
+}
+
+.bran-detail{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.containter-text {
+    color: #58585a;   
+}
+
+.feater-color {
+    color: #40ae49;
+    padding-bottom:  40px;
+}
+
+#btn-quote {
+    text-align: left;
+    border-radius: 30px 30px 30px 30px;
+    border-color: black;
+
+}
+
+/* Calendar */
+.bnDay {
+    width: 50%;
+    background-color: #02d0e7;
+    text-align: center;
+    -webkit-box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
+    -moz-box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
+    box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
+}
+
+.full-sign-hang img, .right {
+    float: right;
+    display: inline;
+}
+
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+
+/* Calendar Start */
+.icon-chevron {
+    display:block;
+    width:15px;
+    height:22px;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAWCAMAAAAo0TYrAAAAElBMVEX///8AAAAAAAAAAAAAAAAAAABknMCaAAAABXRSTlMAEHCg0O5XV0MAAAAzSURBVHgBYwACJkYGZMDMysKIwmUFCyC4KAIsrKgCjPQQQPCpzUX4B9O/mOGBGV7o4QkA5zcCv3HiEZgAAAAASUVORK5CYII=);
+  }
+  .icon-chevron-rotate {
+    transform: rotate(180deg);
+  }
+  .page {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .responsive-calendar-placeholder {}
+  .responsive-calendar-modal {
+    background-color: #1d86c8;
+    color: white;
+    padding: 1em;
+  }
+  .responsive-calendar .controls {
+    text-align: center;
+  }
+  .responsive-calendar .controls a {
+    cursor: pointer;
+    color: red;
+  }
+  .responsive-calendar .controls h4 {
+    display: inline;
+  }
+  .responsive-calendar .day-headers,
+  .responsive-calendar .days {
+    font-size: 0;
+  }
+  .responsive-calendar .day {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    width: 14.285714285714286%;
+    text-align: center;
+  }
+  .responsive-calendar .day a {
+    color: #000000;
+    display: block;
+    cursor: pointer;
+    padding: 20% 0 20% 0;
+  }
+  .responsive-calendar .day a:hover {
+    background-color: #eee;
+    text-decoration: none;
+  }
+  .responsive-calendar .day.header {
+    border-bottom: 1px gray solid;
+  }
+  .responsive-calendar .day.active a {
+    background-color: #1d86c8;
+    color: #ffffff;
+  }
+  .responsive-calendar .day.active a:hover {
+    background-color: #36a0e2;
+  }
+  .responsive-calendar .day.active .not-current {
+    background-color: #8fcaef;
+    color: #ffffff;
+  }
+  .responsive-calendar .day.active .not-current:hover {
+    background-color: #bcdff5;
+  }
+  .responsive-calendar .day.not-current a {
+    color: #ddd;
+  }
+  .responsive-calendar .day .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+  }
+  
+/*Calendar End         */  

@@ -1,0 +1,107 @@
+/* home-footer-container starts here */
+#custom-step1-footer { 
+    /*border-top: 3px solid lightgray; */
+    background-image: url(VLC_Footer/step1-footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+
+    height: 900px;
+    color: black;  
+}
+/* home-footer-container ends here */
+/* home-footer-container ends here */
+
+#row-margin-footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+/* mid-text starts here */
+#mid-text {
+    padding-top: 8%; 
+    font-size: 55px;
+    text-align: center;
+}
+/* mid-text ends here */
+
+/* button get my car starts here */
+#btn-chevron {
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+}
+/* button get my car en ds here */
+
+/* button get my car starts here
+#contact-us {
+    font-size: 55px;
+}
+/* button get my car ends here */
+
+#vlc_logo {
+    width: 200px;
+}
+
+#contact {
+    text-align: right;
+}
+
+/* Links, Contact number, email and logo starts here */
+#bottom-text {
+    font-size: 13px;
+    color: white;
+    padding-top: 500px;
+}
+/* Links, Contact number, email and logo ends here */
+
+table#footer-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Most bottom part text starts here */
+#bottom-center-text {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+/* Most bottom part text ends here */
+
+#bvra-logo {
+    width: 7%;
+}
+
+/* footer links hover and color starts here */
+.footer-link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+/* footer links hover and color starts here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

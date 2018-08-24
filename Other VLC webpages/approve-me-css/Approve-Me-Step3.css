@@ -1,0 +1,154 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Open+Sans|PT+Sans|Roboto+Slab');
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: #666666;
+    text-align: left;
+}
+
+
+#approve-image {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+#form-title{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 30px;
+}
+
+
+#form-subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+#sub-body-1 {
+    height: 800px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important;     
+}
+
+
+/* Table Button Buildme */
+#btn-buildme {
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* step 1 table  */
+#step1-table-1 {
+    text-align: center;
+
+}
+.container-select-mercedes {
+    color: white;   
+    padding-bottom:  40px;
+    
+}
+
+.bran-detail{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.containter-text {
+    color: #58585a;   
+}
+
+.feater-color {
+    color: #40ae49;
+    padding-bottom:  40px;
+}
+
+
+
+
+.card-option{
+    max-width: 280px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+
+}
+
+.txt-align{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#btn-call-me{
+    color: #40ae49;
+    border: 1px solid #40ae49;  
+}
+
+.option-image {
+    
+    height: 70px;
+}
+
+.btn-back{
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    font-family: 'PT Sans', sans-serif;
+    color: #58585a;
+    border: 1px #58585a;
+    text-align: center;
+}
+
+
+#btn-back {
+    padding-top: 60px;
+    padding-right: 130px;
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .col {
+        padding-bottom: 30px;
+    }   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        margin-left: auto;
+        padding-left: 15px;
+        
+    }
+    .option-image {
+        height: 40px;
+    }
+
+    #card-outer{
+        display: inline;
+    }
+    .col {
+        padding-bottom: 30px;
+    }
+    .card-option{
+        padding: 35px 35px 35px;
+        max-width: 210px;
+    }
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}

@@ -1,0 +1,119 @@
+
+#sub-body-1 {
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important     
+}
+
+.form-title{
+    padding-bottom: 30px;
+}
+/* Table Button Buildme */
+#btn-buildme {
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+/* step 1 table  */
+#step1-table-1 {
+    text-align: center;
+
+}
+
+
+.bran-detail{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.containter-text {
+    color: #58585a;   
+}
+
+.feater-color {
+    color: #40ae49;
+    padding-bottom:  40px;
+}
+
+#btn-quote {
+    text-align: left;
+    border-radius: 30px 30px 30px 30px;
+    border-color: black;
+
+}
+
+
+
+
+.bnWrappSection4-5 {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 500px;
+    padding: 30px 20px 40px;
+    background-color: #fff;
+    line-height: 2.7;
+}
+
+.bnForm .bnWrappSection4-5 {
+    margin: 0 auto;
+    padding: 0;
+    padding: 30px 20px 40px;
+    background-color: #fff;
+}   
+
+.cat_dropdown{
+    border-radius: 30px 30px 30px 30px;
+    border-color: black;
+    color: #728bc0;
+    width: 190px;
+    height: 33px !important;
+    padding-left: 10px;
+    
+}
+
+#btn-start-application {
+    border-radius: 30px 30px 30px 30px;
+    width: 140px;
+     font-family: 'PT Sans', sans-serif;
+}   
+
+#btn-quote{
+    border-radius: 30px 30px 30px 30px;
+    width: 140px;
+    color: #58585a;
+     font-family: 'PT Sans', sans-serif;
+     
+
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .col {
+        padding-bottom: 30px;
+    }   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+ 
+
+
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}
