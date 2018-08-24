@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
 
 /* sub-body-1 starts here*/
 #sub-body-1 {
@@ -218,7 +218,8 @@ select {
 }
 
 #how-make-process-img2-v1 {
-    padding-top: 230px;
+    padding-top: 130px;
+    padding-bottom: 100px;
     padding-left: 130px;
 }
 
