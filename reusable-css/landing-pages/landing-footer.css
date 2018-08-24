@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto');
+
+h6, #contact  {
+    font-family: 'Roboto Slab', serif; 
+}
+
+/* footer links hover and color starts here */
+.footer-link {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#bottom-center-text {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
 /* home-footer-container starts here */
 #home-footer {
     
@@ -75,10 +92,7 @@ table#footer-table {
     width: 25%;
 }
 
-/* footer links hover and color starts here */
-.footer-link {
-    color: white;
-}
+
 
 .footer-link:hover {
     color: white;

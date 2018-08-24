@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto');
+
 .navbar {
+    padding-top: 30px;
     background-color: white !important;
     font-family: 'PT Sans', sans-serif;
 }
@@ -6,6 +9,7 @@
 
 #btn-call {
     border-radius: 30px 30px 30px 30px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #vlc-logo {

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
+
+
+p {
+    font-size: 17px;
+    font-family: 'PT Sans', sans-serif;
+} /* should be applied to all landing pages */
+
+#sub-body-1, .sources-link-1 {
+    font-family: 'PT Sans', sans-serif;
+} /* should be applied to all landing pages */
+
+#sub-body-2 #container-subheader, #sub-body-3 #container-subheader, .par-title, #footer-sources h2 {
+    font-family: 'Roboto Slab', serif; 
+} /* should be applied to all landing pages */
+
+
+#card-gallery #container-subheader, .card-title {
+    font-family: 'Roboto Slab', serif;
+} /* manufacturer */
+
+
+.header-col{
+    font-family: 'Roboto Slab', serif;
+} /* new business landing */
+
+#container-text-1 h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.item-gallery, body-gallery, b {
+    font-family: 'PT Sans', sans-serif;
+}   
+
+.item-gallery h4 { 
+    font-family: 'Roboto Slab', serif;
+}
+
+#sub-body-1 #header-call, #paragraph-footer {
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer-link, #bottom-center-text {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#bottom-text h6, #contact {
+    font-family: 'Roboto Slab', serif;
+}
+

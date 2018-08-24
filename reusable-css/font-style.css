@@ -9,7 +9,7 @@
 }
 
 /* home */
-p {
+p, select, .btn {
    font-family: 'PT Sans', sans-serif; 
 }
 
@@ -17,5 +17,4 @@ p {
 #how-make-process-header {
     font-family: 'Roboto Slab', serif;
 }
-
 /* home */

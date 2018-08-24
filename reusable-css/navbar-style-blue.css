@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto');
+
 .navbar {
     background-color: #052d87 !important;
     color: white !important;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #navbarSupportedContent ul li a{
     color: white !important;
+    font-family: 'PT Sans', sans-serif;
 }
 
 

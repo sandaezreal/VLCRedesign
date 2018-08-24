@@ -1,0 +1,91 @@
+/* center-oval starts here */
+#center-oval {
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 43px 43px 43px 43px;
+    width: 690px;
+    height: 80px;
+    background:rgb(255,255,255);  
+    background: transparent\9;  
+    background:rgba(255,255,255,0.75);  
+    padding-right: 40px;
+}
+/* center-oval ends here */
+
+.feather {
+    
+}
+
+
+/* select */
+
+#btn-find-van {
+    text-align: center;
+    background-color: #40ae49 !important;
+    border-color: #40ae49 !important;
+    width: 190px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+.custom-margin-1 {
+     margin-top: 20px;
+     margin-left: 35px;
+}
+
+.custom-margin-2 {
+     margin-top: 20px;
+     margin-left: 20px;
+}
+
+
+.container-select .ulList {
+     width: 190px;
+     height: 40px;
+     background:rgb(255,255,255);  
+     background: transparent\9;  
+     background:rgba(255,255,255,0.1); 
+     border-radius: 30px;
+     border: 1px solid black;
+     color: black;
+     padding-left: 4px;
+     padding-top: 5px;
+     user-select: none;
+     cursor: pointer;
+}
+
+
+.container-select .ulList .fa-angle-down {
+     float: right;
+     font-size: 1px;
+     padding-right: 15px;
+     line-height: 25px;
+}
+
+.container-select .liList {
+     width: 190px;
+     height: 40px;
+     background: #f90;
+     user-select: none;
+     cursor: pointer;
+     display: none;
+}
+
+.container-select .liList .li {
+ width: 190px;
+ height: 40px;
+ background: white;
+ border-bottom: 1px solid lightgray;
+ padding-top: 5px;
+ padding-left: 4px;
+ color: black;
+ line-height: 27px;
+}
+
+.container-select .liList .li:hover {
+ background: #40ae49;
+ color: white;
+}
+
