@@ -1,0 +1,153 @@
+/* 
+- Version:  1.0 (Desktop)
+- Client:  vanleasing.com
+- Author:   Van Anthony S. Valencia
+*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
+
+
+
+#sub-body-1 {
+    height:auto;
+    padding-top: 130px;
+    text-align: center;
+    background-color:#052d87 !important     
+}
+#section-step5 {
+    padding-bottom: 60px;
+}
+.form-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+/*  Step 5 btn-back   */
+.bnForm .bnWrappSection4-5 {
+    margin: 0 auto;
+    padding: 0;
+    padding: 30px 20px 40px;
+    background-color: #fff;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+table.webform, table.reporting, table.order-list, .forum-posts-container table.container {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.bnWrappSection4-5 {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 500px;
+    padding: 30px 20px 40px;
+    background-color: #fff;
+    line-height: 2.7;
+}
+
+
+/* Button */
+/* button get my car starts here */
+
+
+#btn-next {
+    border-radius: 30px 30px 30px 30px;
+    width: 140px;
+     font-family: 'PT Sans', sans-serif;
+}   
+
+
+#btn-back{
+    border-radius: 30px 30px 30px 30px;
+    width: 140px;
+    color: #58585a;
+     font-family: 'PT Sans', sans-serif;
+
+}
+
+#btn-group{
+    padding-top: 100px;
+}
+
+.cat_dropdown{
+	border-radius: 30px 30px 30px 30px;
+    border-color: black;
+    color: #728bc0;
+    width: 190px;
+    height: 33px !important;
+    padding-left: 10px;
+    
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+     h5 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .bnWrappSection4-5 {
+        margin: 0 auto;
+        padding-top: 100px;
+        width: auto;
+        padding: 30px 20px 40px;
+        line-height: 1.8;
+        font-size: 12px;
+    }
+    .cat_dropdown{
+        margin-bottom: 18px;
+    }
+    #btn-group {
+        margin-bottom: 15px;    
+        padding-top: 50px;
+    }
+    #btn-back {
+        margin-bottom: 30px;
+    }
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    label {
+        font-size: 15px;
+    }
+    .cat_dropdown {
+        margin-left: 30px;
+    }
+    .cat_textbox {
+        margin-left: 30px;
+    }
+    #btn-back { 
+        margin-bottom: 20px;
+    }
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+
+}

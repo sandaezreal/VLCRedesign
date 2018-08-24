@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto+Slab:400,700');
+html {	
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+/*Custome Quote Approval Start here -->    */
+h5,h6{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;  
+}
+.custquote-text-1 {
+   color: #58585a;   
+}
+
+.container-lightning {
+   font-family: 'Roboto Slab', serif;
+   color: #40ae49; 
+   font-weight: bold;
+   padding-bottom:  40px;
+    
+}
+
+.feater-color {
+   color: #40ae49; 
+}
+
+
+#custquote-approval {
+   height: 600px;
+   padding-top: 100px;  
+   text-align: center;
+}
+
+/*Custome Quote Approval End here */
+
+#btn-back-to-quote{
+   border-radius: 30px 30px 30px 30px;
+   width: 140px;
+}
+
+
+/*  button footer */    
+
+#btn-quote {
+   text-align: center;
+   border-radius: 30px 30px 30px 30px;
+   border: 1px solid #58585a;
+   color: #58585a;
+   font-family: 'PT Sans', sans-serif;
+   font-weight: bold;
+   width: 210px;    
+  
+}
+
+#btn-start-application {
+   text-align: center;
+   border-radius: 30px 30px 30px 30px;
+   font-family: 'PT Sans', sans-serif; 
+   width: 210px;  
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    .container-lightning {
+        font-size: 22px;
+    }
+    h5, h6 {
+        font-size: 15px;
+    }
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}

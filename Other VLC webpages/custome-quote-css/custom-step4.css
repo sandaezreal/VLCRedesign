@@ -1,0 +1,167 @@
+/* 
+- Version:  1.0 (Desktop)
+- Client:  vanleasing.com
+- Author:   Van Anthony S. Valencia
+*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
+
+html {	
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+
+#sub-body-1 {
+    height:300px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important;
+
+}
+
+.form-title {
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #7987b5;
+    margin-bottom: 40px;
+}
+
+#section3{
+    margin-left: 210px;
+}
+
+ 
+.bnWrappSecion3{
+    padding-top: 200px;
+}
+
+/*  Global Button    */
+
+
+#btn-quote {    
+    border-radius:  30px 30px 30px 30px;
+    font-family: 'PT Sans';
+    color: #58585a;
+    font-family: 'PT Sans', sans-serif;
+	width: 150px;
+	text-align: left;
+    margin-top: 50px;
+}
+
+/* ----- form css -----*/	
+
+
+/* --------------- Lease Box --------------- */
+.bnForm .bnWrappSection3{
+    width: 970px;
+}
+
+.leaseBox{	
+	text-align: center;
+	width: 180px;
+	float: left;
+	background-color:#fff;
+	margin:0px 20px;
+	text-align:center;
+	color:#666666;
+	line-height:1;
+	font-family: 'PT Sans', sans-serif;
+	padding:20px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    cursor: pointer;
+	position: relative;
+	border-radius:  30px 30px 30px 30px;
+}
+
+.leaseBox:background:hover{
+background-color: blue;
+}
+
+.bn_checked .slasher {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #fff;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.leaseBox .numMonths{
+	font-size:50px;
+	margin-bottom: 5px;
+}
+
+.leaseBox .numMonthsDesc{
+	font-family: 'PT Sans', sans-serif;
+	color: #666666;
+	text-transform:lowercase;
+}
+
+.leaseBox .numMonthsDesc span{
+	display:block;
+	margin-bottom:5px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.leaseBox:hover bnWrappSection3 {
+	background-color: anatiquewhite;
+}
+
+
+.lastBox {
+	background-color: #40ae49;
+	color: white;
+}
+
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	.container{
+		max-width: 679px
+	}
+	.leaseBox{
+		margin-bottom: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+	#sub-body-1{
+		padding-top: 15px;
+	}
+	#section3{	
+		text-align: center;
+		margin-left: 0px;
+		margin-top: 30px;
+		padding-left: 76px;
+	}
+	.form-title {
+		padding-bottom: 20px;
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+	.leaseBox{
+		margin-bottom: 20px;
+	}
+
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}

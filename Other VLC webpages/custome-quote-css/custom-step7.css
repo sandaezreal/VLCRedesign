@@ -1,0 +1,180 @@
+/* 
+- Version:  1.0 (Desktop)
+- Client:  vanleasing.com
+- Author:   Van Anthony S. Valencia
+*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab');
+html {	
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+p {
+	font-family: 'PT Sans', sans-serif;
+	color: #58585a;
+}
+.container-title{
+	font-family: 'Roboto Slab', serif;
+	color: #40ae49; 
+	padding-bottom:  10px;
+}
+
+#btn-align{
+	padding-top: 40px;
+}
+#container-card {
+	text-align: center;
+	
+}
+
+#sub-body-1 {
+	padding-top: 60px;
+    height:1300px;
+	text-align: center;	  
+}
+
+.containter-text{
+	padding-bottom: 30px;
+	font-family: 'Roboto Slab', serif;
+	color: #58585a;
+}
+
+#quote-deitals-subheader{
+	font-family: 'PT Sans', sans-serif;
+	color: 58585a;
+}
+/*  Step 7 Card  */
+
+/*  Edit Option*/
+
+#edit-option-box{
+	margin-left: 500px;
+    margin-right: 500px;
+}
+#edit-option{
+	text-align: center;
+    margin-left: 20px;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+.edit-option-image{
+	text-align: center;
+}
+
+.edit-option-text{
+	font-family: 'PT Sans', sans-serif;
+	color: #58585a;
+	font-weight: bold;
+}
+/* Option Box */
+
+#option-box-outer{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+
+#option-box {
+	text-align: center;
+    margin-left: 20px;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.card{
+	border-radius: 30px 30px 30px 30px;
+	height: 400px;
+	
+}
+
+.card-title {
+	margin-top: 30px;
+}
+
+
+#option2{
+	background-color: #40ae49;
+
+}
+
+/* Global  */
+#btn-round {
+	width: 250px;   
+	border-radius: 30px 30px 30px 30px;
+	height: 50px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+#font-white {
+color: white;
+}
+
+
+#image	 {
+    height: 70px;
+}
+
+#Note-Header {
+	padding-top: 50px;
+	color: #58585a;
+}
+
+#quote-details{
+	margin-top: 50px;
+	text-align: center;
+    margin-left: 20px;
+	margin-right: auto;
+	color: #58585a;
+
+}
+
+#quote-outer{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#quote-details-subheader{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+#quote-details-date{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color: #40ae49;
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+	#option-box-outer {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#edit-option-box {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+}

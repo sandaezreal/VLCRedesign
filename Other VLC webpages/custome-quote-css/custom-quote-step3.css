@@ -1,0 +1,195 @@
+/* 
+- Version:  1.0 (Desktop)
+- Client:  vanleasing.com
+- Author:   Van Anthony S. Valencia
+*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
+
+
+/* sub body start here  */
+
+
+#sub-body-1 {
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important;     
+}
+
+
+.form-title {
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.container-select-mercedes {
+    color: white;
+}
+
+.form-approved{
+    padding-top: 110px;
+    max-width: 580px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+
+        
+}
+
+#value-slider{
+    color: #58585a;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid  #58585a;
+    font-weight: bold;
+}
+
+/* Slider */
+.slidecontainer {
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+/*button group  */
+
+
+#btn-group{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#btn-back{
+    border-radius: 30px 30px 30px 30px;
+    width: 160px;
+    color: #58585a;
+    text-align: left;
+}
+
+#btn-next {
+    border-radius: 30px 30px 30px 30px;
+    width: 160px;
+    text-align: right;  
+    
+}   
+
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+    background: #4CAF50 url(../custom-quote-html/Step3/rangeslider.png) no-repeat scroll center center;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+/*  Slider End */
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #btn-next {
+        border-radius: 30px 30px 30px 30px;
+        margin-top: 50px;
+        width: 180px;
+        
+    }   
+    #btn-back{
+        width: 180px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+        }
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|PT+Sans');
+
+sub{
+    color: #666669;
+}
+span{
+    font-family: 'PT Sans', sans-serif;
+
+
+}
+#sub-body-1 {
+    height: auto;   
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important     
+}
+
+#price-name{
+    color: #40ae49;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Table Button Buildme */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+#btn-buildme {
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+/* step 1 table  */
+#step1-table-1 {
+    text-align: center;
+
+}
+.container-select-mercedes {
+    color: white;   
+    font-family: 'Roboto Slab', serif;
+    padding-bottom:  70px;  
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+}
+.bran-name{
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left: 90px;
+    font-family: 'Roboto Slab', serif;
+    color: #58585a;
+    text-align: justify;
+    font-weight: inherit;
+
+
+}
+
+.bran-detail {
+    font-family: 'Roboto Slab', serif;
+    color:#666666; 
+    text-align: justify;
+    font-size: 12px;
+    
+}   
+
+.bran-detail {
+    display: block;
+}
+.pr-vat{
+    color: #40ae49;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.fromvat{
+    font-family: 'PT Sans', sans-serif;
+    color: #666666; 
+}
+.containter-text {
+    color: #58585a;   
+}
+
+
+#btn-quote {
+    text-align: left;
+    border-radius: 30px 30px 30px 30px;
+    border-color: black;
+
+}
+
+
+#step1-table-1{
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    width: 1100px;
+    padding: 20px 40px 20px 50px;
+}
+
+
+
+.text-group{
+  padding-right: 110px;
+  font-family: 'PT Sans', sans-serif;
+  color: #666666;
+}
+
+.btn-align{
+    padding-right: 50px;
+}
+
+
+
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+
+    .container {
+        width: 100%;
+        max-width: none;
+}
+
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+    .container {
+        width: 100%;
+        max-width: none;
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        max-width: none;
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+    .container-select-mercedes {
+            text-align: center;
+            font-size: 15px;
+        
+    }
+    #step1-table-1{
+        line-height: 15.003px;
+        text-align: left;
+        line-height: auto;
+        width: 100%;     
+        margin-right:0;
+        float: left;
+        font-size: 12px;
+        width: 100% !important;
+    }
+    .text-group{
+        padding-right: 30px;
+}
+
+.bran-name{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    font-size: 12dpx;
+    
+}
+
+#sub-body-1{
+    width: 100%;
+}
+.text-group{
+    padding-right: 0px;
+
+  }
+
+}
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+
+    .container {
+        width: 100%;
+        max-width: none;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
