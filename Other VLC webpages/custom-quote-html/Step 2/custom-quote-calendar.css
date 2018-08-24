@@ -1,0 +1,129 @@
+/*
+ * Box sizing fix
+ */
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+ }
+ 
+ /*
+  * Container
+  */
+ .container1 {
+   margin: 20px auto 0;
+   width: 274px;
+ }
+ 
+ /*
+  * Calendar
+  */
+ .calendar {
+   padding: 10px;
+   color: #1e2633;
+   font-family: "Montserrat", sans-serif;
+   line-height: 1.2;
+   text-align: center;
+   height: 274px;
+   user-select: none;
+ }
+ .calendar__header {
+   position: relative;
+   padding: 10px 35px;
+   font-size: 14px;
+   letter-spacing: 0.1em;
+   font-family: 'PT Sans', sans-serif;
+   text-transform: capitalize;
+ }
+
+ .calendar__btn {
+   position: absolute;
+   top: 8px;
+   display: block;
+   height: 43px;
+   padding: 0;
+   width: 20px;
+   text-indent: -9999px;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   outline: none;
+   overflow: hidden;
+   background-image: url(Images/bn_cal_right.png) !important;
+   background-repeat: no-repeat;
+
+ }
+ .calendar__btn:before {
+   content: "";
+   position: absolute;
+   top: 6px;
+   display: block;
+   height: 8px;
+   width: 8px;
+   transform-origin: center;
+
+ }
+ .calendar__btn_prev {
+   left: 10px;
+   background-image: url(Images/bn_cal_left.png) !important;
+ }
+ .calendar__btn_prev:before {
+   left: 8px;
+   transform: rotate(-45deg);
+ }
+ .calendar__btn_next {
+   right: 10px;
+ }
+ .calendar__btn_next:before {
+   right: 8px;
+   transform: rotate(135deg);
+ }
+ .calendar__btn_disabled {
+   pointer-events: none;
+ }
+ .calendar__btn_disabled:before {
+   border-color: #b2b2b2;
+ }
+ .calendar__btn:hover:before {
+   border-color: #985e5b;
+ }
+ .calendar__table {
+   margin-top: 8px;
+   width: 100%;
+   table-layout: fixed;
+ }
+ .calendar__table-col-header {
+   padding: 12px 0;
+   color: #b2b2b2;
+   font-size: 12px;
+   letter-spacing: 0.1em;
+ }
+ .calendar__table-cell {
+  font-family: 'PT Sans', sans-serif;
+  padding: 6px 0;
+  color: #9b9b9b;
+   font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 0.05em;
+   cursor: pointer;
+ }
+ .calendar__table-cell_disabled {
+   color: #d3dbe8;
+   pointer-events: none;
+ }
+ .calendar__table-cell:hover {
+   color: #985e5b;
+ }
+ 
+
+
+ .container1{
+   background-color: white;
+   width: auto;
+ }
+
+ .calendar__month ,.calendar__year{
+  color: #49c853;
+  font-size: 21px;
+
+ }

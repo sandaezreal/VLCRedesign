@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
+
+
+
+.navbar-color {
+    background-color:#052d87 !important ; 
+}
+
+#custquote-approval {
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.container-lightning {
+    color: #40ae49; 
+    padding-bottom:  40px;
+    
+}
+
+#btn-back-to-quote{
+    border-radius: 30px 30px 30px 30px;
+    width: 140px;
+}
+
+.custquote-text-1 {
+    color: #58585a;   
+    
+}
+
+.feater-color {
+    color: #40ae49; 
+}
+
+#btn-quote {
+    text-align: left;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid #58585a;
+    color: #58585a;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+   
+}
+
+#btn-start-application {
+    text-align: right;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'PT Sans', sans-serif; 
+}

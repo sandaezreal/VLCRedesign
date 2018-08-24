@@ -1,0 +1,17 @@
+/* 
+- Version:  1.0 (Desktop)
+- Client:  vanleasing.com
+- Author:   Van Anthony S. Valencia
+*/
+@import url(//fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+.container-select-mercedes {
+    color: white;
+}
+#sub-body-1 {
+    height:800px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important     
+}
+

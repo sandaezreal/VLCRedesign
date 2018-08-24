@@ -1,0 +1,263 @@
+/* 
+- Version:  1.0 (Desktop)
+- Client:  vanleasing.com
+- Author:   Van Anthony S. Valencia
+*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab:400,700');
+
+
+/* sub body start here  */
+
+
+#sub-body-1 {
+    height: 400px;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#052d87 !important;     
+}
+
+
+.form-title {
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 94px;
+}
+
+.container-select-mercedes {
+    color: white;
+}
+
+
+.form-approved{
+    padding-top: 110px;
+    max-width: 580px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+
+        
+}
+
+#value-slider{
+    color: #58585a;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid  #58585a;
+    font-weight: bold;
+}
+
+/* Slider */
+.slidecontainer {
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+/*button group  */
+
+
+#btn-group{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#btn-back{
+    border-radius: 30px 30px 30px 30px;
+    width: 160px;
+    color: #58585a;
+}
+
+#btn-next {
+    border-radius: 30px 30px 30px 30px;
+    width: 160px;
+    
+}   
+
+
+
+
+/* Calendar */
+
+.bnForm .bv-selectvan-wrapper, .leaseBox, .bnForm .bnWrappSection1, .bnForm .bnWrappSection2, .bnForm .bnWrappSection6, .bnForm .bnWrappSection7 {
+    -webkit-box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.19);
+}
+
+.bnForm .bnWrappSection1, .bnForm .bnWrappSection2, .bnForm .bnWrappSection3, .bnForm .bnWrappSection4, .bnForm .bnWrappSection5, .bnForm .bnWrappSection6, .bnForm .bnWrappSection7 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bnWrappSection1 {
+    background-color: #fff;
+    width: 630px;
+    margin: 0 auto;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+
+
+.bnCalendar {
+    width: 45%;
+    background-color: white;
+}
+
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+
+
+.right {
+    float: right;
+    display: inline;
+}
+
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+body {
+    font-size: 13px;
+    line-height: 1.231;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+    
+.bnDay {
+    height: 294px;
+}    
+.bnDay {
+    width: 45%;
+    background-color: #40ae49;
+    text-align: center;
+    -webkit-box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
+    -moz-box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
+    box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+body {
+    font-size: 13px;
+    line-height: 1.231;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.theDay{
+    padding-top: 15px;
+}
+.bnDay .theDay {
+    text-transform: uppercase;
+    font-size: 19px;
+    
+}
+
+.bnDay p {
+    color: #fff;
+}
+p, li, .did-you-know a, #accordion div, div.sizematters .col, .bill-home #lease-finder select, .radio div, .checkboxes {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+p {
+    line-height: 1.6;
+    color: #333;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+
+.bnDay .theDate {
+    font-size: 170px;
+    line-height: 1;
+     margin-bottom: 18px;
+}
+    
+.theDateDesc{
+    color: #266e2c !important;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    .bnDay {
+        display: none;
+    }
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+    .bnDay {
+        display: none;
+    }
+}
