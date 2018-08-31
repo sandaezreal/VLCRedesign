@@ -29,7 +29,7 @@
  }
  .calendar__header {
    position: relative;
-   padding: 10px 35px;
+   padding: 0px 35px;
    font-size: 14px;
    letter-spacing: 0.1em;
    font-family: 'PT Sans', sans-serif;
@@ -38,7 +38,7 @@
 
  .calendar__btn {
    position: absolute;
-   top: 8px;
+   top: -6px;
    display: block;
    height: 43px;
    padding: 0;
@@ -93,7 +93,7 @@
    table-layout: fixed;
  }
  .calendar__table-col-header {
-   padding: 12px 0;
+   padding: 17px 0;
    color: #b2b2b2;
    font-size: 12px;
    letter-spacing: 0.1em;
@@ -102,7 +102,7 @@
   font-family: 'PT Sans', sans-serif;
   padding: 6px 0;
   color: #9b9b9b;
-   font-size: 14px;
+   font-size: 16px;
    font-weight: 700;
    letter-spacing: 0.05em;
    cursor: pointer;

@@ -17,10 +17,28 @@
     background-color:#052d87 !important;     
 }
 
+#sub-body-2{
+    background-color:#052d87 !important;
+    padding-top: 100px;
+}
+
+#btn-back {    
+    border-radius:  30px 30px 30px 30px;
+    font-weight: bold;
+    color: #58585a;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+	width: 180px;
+	text-align: left;
+    margin-top: 70px;
+    letter-spacing: 2px;    
+    margin-left: 230px;
+    border: 2px solid #58585a;
+}
 
 .form-title {
     font-family: 'Roboto Slab', serif;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-weight: bold;
     padding-left: 94px;
 }
@@ -58,23 +76,6 @@
 
 /*button group  */
 
-
-#btn-group{
-    padding-top: 100px;
-    text-align: center;
-}
-
-#btn-back{
-    border-radius: 30px 30px 30px 30px;
-    width: 160px;
-    color: #58585a;
-}
-
-#btn-next {
-    border-radius: 30px 30px 30px 30px;
-    width: 160px;
-    
-}   
 
 
 
@@ -115,8 +116,12 @@ body, button, input, select, textarea {
 .bnCalendar {
     width: 45%;
     background-color: white;
+    box-shadow: 18px 0px 31px -18px rgba(0,0,0,0.35);
 }
 
+#back-text-btn{
+    padding-left: 10px;
+}
 
 user agent stylesheet
 div {
@@ -243,18 +248,50 @@ p {
 
 }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-
-}
+    .bnWrappSection1 {
+        width: 711px;
+        padding-right: 204px;
+    }
+    .bnCalendar {
+        width: 49%;
+    }
+    .bnDay {
+            width: 51%;
+        }
+    }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 570px){  
+    .container {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #sub-body-1 {
+        padding-left: 0px;
+    }
     .bnDay {
         display: none;
     }
-}
 
+.right {
+    float: left;
+}
+    .form-title{
+        padding-left: 0px;
+    }
+    .bnCalendar {
+        margin-left: 112px;
+    
+    }
+    .bnWrappSection1 {
+        width: 711px;
+         padding-right: 0px;
+    }
+}
 /* Custom, Iphone Retina */
 @media only screen and (max-width : 320px){
     .bnDay {
