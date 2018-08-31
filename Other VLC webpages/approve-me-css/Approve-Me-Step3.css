@@ -25,7 +25,7 @@ p {
     font-weight: bold;
 }
 #sub-body-1 {
-    height: 800px;
+    height: auto;
     padding-top: 100px;
     text-align: center;
     background-color:#052d87 !important;     
