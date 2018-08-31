@@ -12,9 +12,11 @@ h5,h6{
 }
 .custquote-text-1 {
    color: #58585a;   
+   letter-spacing: 2px;
 }
 
 .container-lightning {
+   letter-spacing: 2px;
    font-family: 'Roboto Slab', serif;
    color: #40ae49; 
    font-weight: bold;
@@ -28,7 +30,7 @@ h5,h6{
 
 
 #custquote-approval {
-   height: 600px;
+   height: 500px;
    padding-top: 100px;  
    text-align: center;
 }
@@ -44,20 +46,31 @@ h5,h6{
 /*  button footer */    
 
 #btn-quote {
-   text-align: center;
+   text-align: left;
    border-radius: 30px 30px 30px 30px;
    border: 1px solid #58585a;
    color: #58585a;
-   font-family: 'PT Sans', sans-serif;
-   font-weight: bold;
    width: 210px;    
+   
   
 }
 
+#back-text-btn{
+    margin-left: 5xpx;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#application-text-btn{
+    margin-right: 3px;
+    font-family: 'PT Sans', sans-serif; 
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 #btn-start-application {
-   text-align: center;
+   text-align: right;
    border-radius: 30px 30px 30px 30px;
-   font-family: 'PT Sans', sans-serif; 
    width: 210px;  
 }
 

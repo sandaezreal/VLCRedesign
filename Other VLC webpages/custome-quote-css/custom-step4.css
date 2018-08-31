@@ -15,7 +15,8 @@ html {
     height:300px;
     padding-top: 100px;
     text-align: center;
-    background-color:#052d87 !important;
+	background-color:#052d87 !important;
+	
 
 }
 
@@ -39,14 +40,19 @@ html {
 /*  Global Button    */
 
 
-#btn-quote {    
-    border-radius:  30px 30px 30px 30px;
-    font-family: 'PT Sans';
+#btn-back {    
+	border-radius:  30px 30px 30px 30px;
+    font-weight: bold;
     color: #58585a;
     font-family: 'PT Sans', sans-serif;
-	width: 150px;
+    font-size: 18px;
+	width: 180px;
 	text-align: left;
-    margin-top: 50px;
+    margin-top: 70px;
+    letter-spacing: 2px;    
+    margin-left: 70px;
+	border: 2px solid #58585a;
+
 }
 
 /* ----- form css -----*/	
@@ -121,7 +127,9 @@ background-color: blue;
 
 /* Large Devices, Wide Screens */ 
 @media only screen and (max-width : 1200px) {
-
+	#section3 {
+		margin-left: 137px;
+	}
 }
 
 /* Medium Devices, Desktop */ 
@@ -163,5 +171,3 @@ background-color: blue;
 
 /* Custom, Iphone Retina */
 @media only screen and (max-width : 320px){
-
-}

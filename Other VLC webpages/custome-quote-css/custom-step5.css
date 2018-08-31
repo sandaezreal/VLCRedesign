@@ -18,6 +18,7 @@
 }
 .form-title {
     font-family: 'Roboto Slab', serif;
+    font-size: 18px;
     font-weight: bold;
     padding-bottom: 40px;
 }
@@ -58,21 +59,30 @@ table.webform, table.reporting, table.order-list, .forum-posts-container table.c
 
 #btn-next {
     border-radius: 30px 30px 30px 30px;
-    width: 140px;
+    width: 180px;
      font-family: 'PT Sans', sans-serif;
-}   
+     text-align: right;
+     font-size: 18px;
+     font-weight: bold;
+     letter-spacing: 2px;
+    }   
 
 
 #btn-back{
-    border-radius: 30px 30px 30px 30px;
-    width: 140px;
+    border-radius:  30px 30px 30px 30px;
+    font-weight: bold;
     color: #58585a;
-     font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+	width: 180px;
+	text-align: left;
+    letter-spacing: 2px;        
+	border: 2px solid #58585a;
 
 }
 
 #btn-group{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .cat_dropdown{
@@ -82,9 +92,69 @@ table.webform, table.reporting, table.order-list, .forum-posts-container table.c
     width: 190px;
     height: 33px !important;
     padding-left: 10px;
-    
 }
 
+/*====== Dropdown ====== */
+
+
+.custom-margin-1 {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.custom-margin-2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.container-select .ulList {
+    width: 190px;
+    height: 40px;
+    background:rgb(255,255,255);  
+    background: transparent\9;  
+    background:rgba(255,255,255,0.1); 
+    border-radius: 30px;
+    border: 1px solid black;
+    color: black;
+    padding-left: 4px;
+    padding-top: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.container-select .ulList .fa-angle-down {
+    float: right;
+    font-size: 1px;
+    padding-right: 15px;
+    line-height: 25px;
+}
+
+.container-select .liList {
+    width: 190px;
+    height: 40px;
+    background: #f90;
+    user-select: none;
+    cursor: pointer;
+    display: none;
+}
+
+.container-select .liList .li {
+width: 190px;
+height: 40px;
+background: white;
+border-bottom: 1px solid lightgray;
+padding-top: 5px;
+padding-left: 4px;
+color: black;
+line-height: 27px;
+}
+
+.container-select .liList .li:hover {
+background: #40ae49;
+color: white;
+}
 /*========= Non- Mobile First Method ============ */
 
 /* Large Devices, Wide Screens */ 
@@ -95,16 +165,26 @@ table.webform, table.reporting, table.order-list, .forum-posts-container table.c
 /* Medium Devices, Desktop */ 
 @media only screen and (max-width : 992px) {
 
-}
-
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+        #btn-back{
+            margin-bottom: 50px;
 
+}
+    
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px){
-     h5 {
+    .h3, h3 {
+        font-size: 4vw;
+    } 
+    h5 {
         font-size: 20px;
         padding-left: 30px;
         padding-right: 30px;
@@ -117,12 +197,15 @@ table.webform, table.reporting, table.order-list, .forum-posts-container table.c
         line-height: 1.8;
         font-size: 12px;
     }
+    label {
+        font-size: 3vw;
+    }
     .cat_dropdown{
         margin-bottom: 18px;
     }
     #btn-group {
         margin-bottom: 15px;    
-        padding-top: 50px;
+        padding-top: 30px;
     }
     #btn-back {
         margin-bottom: 30px;
@@ -147,7 +230,11 @@ table.webform, table.reporting, table.order-list, .forum-posts-container table.c
 }
 
 /* Custom, Iphone Retina */
-@media only screen and (max-width : 320px){
-
-
+@media only screen and (max-width : 350px){
+    .cat_dropdown {
+        width: 150px;
+    }
+    label {
+        font-size: 105%;
+    }
 }
