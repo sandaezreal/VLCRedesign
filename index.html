@@ -33,7 +33,11 @@ Date: August 4, 2018
       
     <!-- CSS Style for fonts style starts here -->    
     <link rel="stylesheet" href="reusable-css/font-style.css">
-    <!-- CSS Style for fonts style ends here -->   
+    <!-- CSS Style for fonts style ends here -->
+    
+    <!-- CSS Style for body starts here -->    
+    <link rel="stylesheet" href="reusable-css/center-oval.css">
+    <!-- CSS Style for body ends here --> 
       
     <title>Home - Van Leasing</title>
       
@@ -48,6 +52,7 @@ Date: August 4, 2018
             
           <a class="navbar-brand" href="#">
             <img id="vlc-logo" src="VLC-Images/reusable-image/vlc_logo.png">
+            <img id="vlc-logo-blue" src="VLC-Images/reusable-image/vlc-logo-blue.png">
           </a>
           
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,38 +97,72 @@ Date: August 4, 2018
       
     <!-- sub-body-1 starts here -->
     <div id="sub-body-1">
-        <div class="container pt-sans" id="container-1">
-            <div id="container-text-1">
-                <h1 id="container-header"> Business Van Leasing The Easy Way </h1>
-                <h3 id="container-subheader"> Great Choice. Low Prices. Free Delivery </h3>
-            </div> 
-        </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         
-        <div class="container pt-sans" id="center-oval">
-            <div class="row" id="landing-items">
-              <div class="col-md-4">
-                  <select class="dropdown-option">
-                    <option selected value="volvo">Select Make</option>
-                    <option value="saab">Saab</option>
-                    <option value="vw">VW</option>
-                    <option value="audi">Audi</option>
-                  </select>
-              </div>
-              <div class="col-md-4">
-                  <select class="dropdown-option">
-                    <option selected value="volvo">Select Model</option>
-                    <option value="saab">Ferrari</option>
-                    <option value="vw">Honda</option>
-                    <option value="audi">Audi</option>
-                  </select>
-              </div>
-              <div class="col-md-4">
-                  <button type="button" id="btn-find-van" class="btn btn-success dropdown-option">
-                    Find my van <i data-feather="chevron-right"></i>    
-                </button>
-              </div>
-            </div>
-        </div> 
+      <div class="carousel-inner">
+        <div class="carousel-item active"> 
+          <img class="d-block w-100" src="VLC-Images/reusable-image/homepage-header-v1.png" alt="First slide">
+            
+          <div class="carousel-caption">
+              <h1 id="container-header"> Business Van Leasing The Easy Way</h1>
+              <h3 id="container-subheader"> Great Choice. Low Prices. Free Delivery </h3>
+               
+               <div class="container" id="center-oval">
+                  <div class="row" id="landing-items">
+                      <div class="col-md-4">
+                          <div class="container-select custom-margin-1">
+                                <div class="ulList sel-list-1">
+                                    <img src="" alt="">
+                                    <span class="ulTxt sel-txt-1">Select make</span>
+                                    <span class="fa fa-angle-down"><i data-feather="chevron-down" class="foo bar" height="18" width="18"></i></span>
+                                </div>
+                                <div class="liList li-list-1">
+                                    <div class="li">
+                                        <span class="liTxt li-txt-1">Truck</span>
+                                    </div>
+                                    <div class="li">
+                                        <span class="liTxt li-txt-1">Van</span>
+                                    </div>
+                                    <div class="li">
+                                        <span class="liTxt li-txt-1">Car</span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="container-select custom-margin-2">
+                                <div class="ulList sel-list-2">
+                                    <img src="" alt="">
+                                    <span class="ulTxt sel-txt-2">Select model</span>
+                                    <span class="fa fa-angle-down"><i data-feather="chevron-down" height="18" width="18"></i></span>
+                                </div>
+                                <div class="liList li-list-2">
+                                    <div class="li">
+                                        <span class="liTxt li-txt-2">BMW</span>
+                                    </div>
+
+                                    <div class="li">
+                                        <span class="liTxt li-txt-2">Ferrari</span>
+                                    </div>
+                                    <div class="li">
+                                        <span class="liTxt li-txt-2">Honda</span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="col-md-4">
+                        <button type="button" id="btn-find-van" class="btn btn-success dropdown-option">
+                            Find my van <i data-feather="chevron-right"></i>    
+                        </button>
+                      </div>
+                    </div>
+                </div>  
+
+            </div>    
+             
+        </div>
+      </div>
+    </div>  
     </div>
     <!-- sub-body-1 ends here -->
       
@@ -851,6 +890,12 @@ Date: August 4, 2018
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <!-- trigger select option -->
+    <script src="../../reusable-js/select-option.js">
+    </script>
+    <!-- trigger select option -->   
+      
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
