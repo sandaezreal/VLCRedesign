@@ -23,7 +23,7 @@
     <!-- CSS Style for body ends here -->  
       
     <!-- CSS Style for body starts here -->    
-    <link rel="stylesheet" href="aboutus-footer.css">
+    <link rel="stylesheet" href="../reusable-css/custom-quote-footer.css">
     <!-- CSS Style for body ends here --> 
       
     <title>Privacy</title>
@@ -113,7 +113,7 @@
                 <h3 id="container-subheader">Always Here to Assist  </h3>
             </div> 
             
-            <div class="container green-divider" align="center">
+            <div class="container green-divider">
             </div>
             <div id="sub-body-1-text">
                 <p id="paragraph">Did you know that we’ve been leasing commercial vans to customers all over the UK since 1992 and have been trading online for over 15 years? A lot’s changed in that time, not least the vehicles we lease, which have gone from rather boxy and unexciting looking workhorses that existed in 1992 right through to some of the stunning new and featured packed vehicles that we see on our roads today. From Mercedes, and Volkswagens through to Fords, Citroens and Ivecos, every single manufacturer now has something unique and exciting to offer the UK’s business owners.</p>
@@ -132,14 +132,16 @@
                 <div id="container-text-3">
                     <h6 id="container-subheader" style="padding-bottom: 30px;">Watch Our Video</h6>
                     <br>
-                    <video id="myPlayerID"                         
-                    data-account="1507807800001"
-                    data-player="c2a48da5-7ab1-4071-a0e3-01e717bff345"
-                    data-embed="default"
-                    class="video-js" controls poster="vanleasing-video.png">
-                      
-                     <source src="../../VLC-Images/landing-image/models/javascript-tut.mp4" type="video/mp4"> 
-                  </video>  
+                    <div id="container-video">
+                            <video id="myPlayerID"                         
+                            data-account="1507807800001"
+                            data-player="c2a48da5-7ab1-4071-a0e3-01e717bff345"
+                            data-embed="default"
+                            class="video-js" controls poster="vanleasing-video.png">
+                            
+                            <source src="../../VLC-Images/landing-image/models/javascript-tut.mp4" type="video/mp4"> 
+                        </video>  
+                   </div>
                 </div> 
         </div>
         </div>
@@ -205,75 +207,77 @@
    
 
    <!-- footer starts here -->
-   <div class="window-wrapper" id="privacy-footer">
-    <div id="mid-text">
-            <div class="container" >
-                    <div class="row" align="center" >
-                        <div class="col-md-12" >
-                                <button type="button" class="btn btn-light" id ="btn-quote">
-                                  Back to quote    <i data-feather="chevron-right"></i> 
-                                </button>  
-                        </div>       
-                    </div>   
-    <!-- Whole container of footer -->
-    <div class="container-fluid" id="bottom-text">
-        <div class="row" id="row-margin-footer">
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h6> Info </h6>
-                        <a class="footer-link" href="#"> Apply Online </a><br>
-                        <a class="footer-link" href="#"> Contact Us </a><br>
-                        <a class="footer-link" href="#"> About US </a><br>
-                        <a class="footer-link" href="#"> FAQ's </a><br>
-                        <a class="footer-link" href="#"> GDPR </a><br>
-                        <a class="footer-link" href="#"> Disclaimer </a><br>
-                        <a class="footer-link" href="#"> Sitemap </a><br>
-                        <a class="footer-link" href="#"> Terms and Conditions </a><br>
-                        <a class="footer-link" href="#"> Regulations </a><br>
-                    </div>
-                    <div class="col-md-3">
-                        <h6> Van Size </h6>
-                        <a class="footer-link" href="#"> Micro Vans </a><br>
-                        <a class="footer-link" href="#"> Small Vans </a><br>
-                        <a class="footer-link" href="#"> Mid Size Van </a><br>
-                        <a class="footer-link" href="#"> Large Van </a><br>
-                        <a class="footer-link" href="#"> Specialist Van </a><br>
-                        <a class="footer-link" href="#"> Pickup </a><br>
-                        <a class="footer-link" href="#"> Tipper and Dropside </a><br>
-                        <a class="footer-link" href="#"> Leasing </a><br>
-                    </div>
-                    <div class="col-md-3">
-                        <h6> Manufacturers </h6>
-                        <a class="footer-link" href="#"> Ford </a><br>
-                        <a class="footer-link" href="#"> Volkswagen </a><br>
-                        <a class="footer-link" href="#"> Mercedes </a><br>
-                        <a class="footer-link" href="#"> Renault </a><br>
-                        <a class="footer-link" href="#"> Vauxhall </a><br>
-                        <a class="footer-link" href="#"> More >> </a><br>
-                    </div>
-                    <div class="col-md-3">
-                        <h6> Van Leasing Live </h6>
-                        <a class="footer-link" href="#"> Reviews </a><br>
-                        <a class="footer-link" href="#"> Twitter </a><br>
+   <div class="window-wrapper" id="about-us-footer-v1">
+        <div id="mid-text">
+                <div class="container" >
+                        <div class="row"  >
+                            <div class="col"  >
+                                    <button type="button" class="btn btn-light" id ="btn-quote">
+                                        <i data-feather="chevron-left"></i><span id="back-text-btn"> Build my quote</span> 
+                                    </button>  
+                            </div>   
+                  
+                        </div>   
+     <!-- button footer end here -->                    
+        <!-- Whole container of footer -->
+        <div class="container-fluid" id="bottom-text">
+            <div class="row" >  
+                <div class="col-md-8" id="bottom-link">
+                    <div class="row">
+                        <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                            <h6> Info </h6>
+                            <a class="footer-link" href="#"> Apply Online </a><br>
+                            <a class="footer-link" href="#"> Contact Us </a><br>
+                            <a class="footer-link" href="#"> About US </a><br>
+                            <a class="footer-link" href="#"> FAQ's </a><br>
+                            <a class="footer-link" href="#"> GDPR </a><br>
+                            <a class="footer-link" href="#"> Disclaimer </a><br>
+                            <a class="footer-link" href="#"> Sitemap </a><br>
+                            <a class="footer-link" href="#"> Terms and Conditions </a><br>
+                            <a class="footer-link" href="#"> Regulations </a><br>
+                        </div>
+                        <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                            <h6> Van Size </h6>
+                            <a class="footer-link" href="#"> Micro Vans </a><br>
+                            <a class="footer-link" href="#"> Small Vans </a><br>
+                            <a class="footer-link" href="#"> Mid Size Van </a><br>
+                            <a class="footer-link" href="#"> Large Van </a><br>
+                            <a class="footer-link" href="#"> Specialist Van </a><br>
+                            <a class="footer-link" href="#"> Pickup </a><br>
+                            <a class="footer-link" href="#"> Tipper and Dropside </a><br>
+                            <a class="footer-link" href="#"> Leasing </a><br>
+                        </div>
+                        <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                            <h6> Manufacturers </h6>
+                            <a class="footer-link" href="#"> Ford </a><br>
+                            <a class="footer-link" href="#"> Volkswagen </a><br>
+                            <a class="footer-link" href="#"> Mercedes </a><br>
+                            <a class="footer-link" href="#"> Renault </a><br>
+                            <a class="footer-link" href="#"> Vauxhall </a><br>
+                            <a class="footer-link" href="#"> More >> </a><br>
+                        </div>
+                        <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                            <h6> Van Leasing Live </h6>
+                            <a class="footer-link" href="#"> Reviews </a><br>
+                            <a class="footer-link" href="#"> Twitter </a><br>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div id="contact"> 
-                    <h1> 0800 027 3923 </h1>
-                    <h4> enquiries@vanleasing.com </h4>
-                    <img id="vlc_logo" src="../VLC-Images/reusable-image/rclogo.png">
-                </div>
-             </div>
-        </div>    
-    </div>
+                <div class="col col-md-4">
+                    <div id="contact"> 
+                        <h4 id="contact-number"> 0800 027 3923 </h4>
+                        <h4 id="contact-email"> enquiries@vanleasing.com </h4>
+                        <img id="vlc_logo-bottom" class="img-fluid"  src="../VLC-Images/reusable-image/rclogo.png">
+                        
+                    </div>
+                 </div>
+            </div>    
+        </div>
     <!-- Whole container of footer -->
        <!-- Most bottom part text starts here -->
        <div id="bottom-center-text">
         First European Finance (Scotland) Limited trading as vanleasing.com is authorised and regulated by the Financial Conduct Authority as a credit broker, not a lender.<br> RFL House, Anderson Street, Dunblane, FK15 9AJ | FRN Number: 671818 | © 2018
         <br><br>
-        <img id="bvra-logo" src="../VLC-Images/reusable-image/LeasePlan.png">
         <img id="bvra-logo" src="../VLC-Images/reusable-image/Bvrla.png">
     </div>
     <!-- Most bottom part text ends here -->

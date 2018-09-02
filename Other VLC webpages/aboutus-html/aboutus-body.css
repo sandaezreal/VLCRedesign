@@ -15,10 +15,6 @@ body,
     
 }
 
-h6{
-    font-family: 'PT Sans', sans-serif;
-    color: #58585a;
-}
 
 #header-aboutus{
     font-family: 'PT Sans', sans-serif;
@@ -131,7 +127,6 @@ select {
     margin-right: 300px;
 }
 
-
 #number-color{
    color: #40ae49;
 }
@@ -152,6 +147,7 @@ select {
 #container-text-3 {
    padding-top: 8%;
 }
+
 
 
 
@@ -216,7 +212,13 @@ select {
     font-size: 25px;
 }
 /* paragraphs styles ends here */
-
+#btn-quote {
+    text-align: left;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid #58585a;
+    color: #58585a;
+    width: 210px;
+}
 #btn-chevron {
     border-radius: 30px 30px 30px 30px;
     width: 200px;
@@ -262,12 +264,52 @@ select {
 
 /* Large Devices, Wide Screens */ 
 @media only screen and (max-width : 1200px) {
+    #sub-body-3 {
+         padding-left: 0px;
+         text-align: center;
+         margin-left: 0px;
+         margin-right: 200px;
+    }
 
+    #container-subheader {
+        padding-left: 8px;
+    }
+    #sub-body-2 {
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+   
+    #sub-body-4 {
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #container-text-3{
+        padding-left: 0px;
+    }
+ 
+    #myPlayerID{
+        max-width: 400px;
+    
+    }
 }
 
 /* Medium Devices, Desktop */ 
 @media only screen and (max-width : 992px) {
-
+    #sub-body-3 {
+        padding-left: 0px;
+       padding-right: 0px;
+        text-align: center;
+    }
+    #myPlayerID{
+       width: calc(100% - 100);
+    }
+    #container-text-3 {
+        padding-top: 8%;
+        margin-left: 150px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -276,6 +318,24 @@ select {
         padding-left: 0px;
        padding-right: 0px;
         text-align: center;
+    }
+    #sub-body-4 {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #sub-body-2 {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #myPlayerID {
+        max-width: 298px;
+    }
+    #container-text-3 {
+        padding-top: 8%;
+        margin-left: 97px;
+ 
     }
 }
 
@@ -312,6 +372,13 @@ select {
     .header-vanleasing{
         font-size: 20px;
     }
+    #container-text-3 {
+         padding-left: 0; 
+    }
+    .green-divider{
+       max-width: 200px;
+    }
+
 }
 
 /* Custom, Iphone Retina */
