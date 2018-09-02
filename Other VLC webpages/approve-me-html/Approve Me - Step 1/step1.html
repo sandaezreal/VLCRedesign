@@ -15,15 +15,15 @@
     <!-- Feather ends here -->
      
     <!-- CSS Style for navbar starts here -->    
-    <link rel="stylesheet" href="navbar-style.css">
+    <link rel="stylesheet" href="../../reusable-css/navbar-style.css">
     <!-- CSS Style for navbar ends here -->
       
     <!-- CSS Style for body starts here -->    
-    <link rel="stylesheet" href="custom-step1.css">
+    <link rel="stylesheet" href="../../approve-me-css/Approve-Me-Step1.css">
     <!-- CSS Style for body ends here -->  
       
     <!-- CSS Style for body starts here -->    
-    <link rel="stylesheet" href="custom-step1-footer.css">
+    <link rel="stylesheet" href="../../reusable-css/custom-quote-footer.css">
     <!-- CSS Style for body ends here --> 
       
     <title>Home - Van Leasing</title>
@@ -34,7 +34,7 @@
   <body>
     
     <!-- Navbar starts here --> 
-    <nav class="navbar navbar-color">
+    <nav class="navbar navbar-color-white">
         <div class="container">
                 
             <a class="navbar-brand " href="#">
@@ -43,103 +43,404 @@
             </a>
 
               <div class="bnCloseWholeForm">
-                        <a href="index.html"><img src="../../VLC-Images/custom-quote-image/bnFormClose.png">
+                        <a href="index.html"><img src="../../VLC-Images/reusable-image/bnFormClose.png">
                         </a>
               </div>
         </div>
     </nav>
     <!-- Navbar ends here --> 
-    <div id="sub-body-1">
+    <div id="sub-body-1">   
         <div class="container"> 
-            <div class="page">
-                <!-- Responsive calendar - START -->
-                <div class="responsive-calendar">
-                  <div class="controls">
-                      <a class="pull-left" data-go="prev"><div class="btn"><i class="icon-chevron icon-chevron-rotate"></i></div></a>
-                      <h4><span data-head-year></span> <span data-head-month></span></h4>
-                      <a class="pull-right" data-go="next"><div class="btn"><i class="icon-chevron"></i></div></a>
-                  </div><hr/>
-                  <div class="day-headers">
-                    <div class="day header">Mon</div>
-                    <div class="day header">Tue</div>
-                    <div class="day header">Wed</div>
-                    <div class="day header">Thu</div>
-                    <div class="day header">Fri</div>
-                    <div class="day header">Sat</div>
-                    <div class="day header">Sun</div>
-                  </div>
-                  <div class="days" data-group="days">
-                    <!-- the place where days will be generated -->
-                  </div>
+            <div class="form-title">
+                <h4 style="color: white;">When would you like your new van?</h4>
+            </div>
+            <div class="bnWrappSection1">
+                <div class="right bnCalendar">
+                    <div class="bnCalendarPadd">
+                        <div class="container1">
+                                <div id="calendar"></div>
+                        </div>                                  
+                    </div>
                 </div>
-                <!-- Responsive calendar - END -->
-                <!-- Placeholder -->
-                <div class="responsive-calendar-placeholder">
-                  
-                </div>
-              </div>
+                <div class="right bnDay">
+                    <div class="bnDayPadd">
+                        <p class="theDay">Tuesday</p>
+                        <p class="theDate">14</p>
+                        <p class="theDateDesc">You have selected this date <br>as your ideal delivery date</p>
+                    </div>
+                </div>   
+            </div>      
+         </div>
+  </div><!-- sub body end here-->
+    <div id="sub-body-2">
+        <div class="container">
+          <div class="row">
+              <button  type="button" class="btn btn-secondary " id="btn-back">
+                  <i data-feather="chevron-left" style="padding-right: 30px;"></i><span id="back-text-btn"> Back</span> 
+              </button> 
+          </div>
         </div>
     </div>
+<script> 
+/*
+* Constants
+*/
 
+const DayNames = [
+"S",
+"M",
+"T",
+"W",
+"R",
+"F",
+"S"
+];
+
+const MonthNames = [
+'JANUARY',
+'FEBRUARY',
+'MARCH',
+'APRIL',
+'MAY',
+'JUNE',
+'JULY',
+'AUGUST',
+'SEPTEMBER',
+'OCTOBER',
+'NOVEMBER',
+'DECEMBER',
+];
+
+const Events = {
+DATE_SELECTED: 'dateSelected',
+};
+
+const ClassNames = {
+BTN: 'calendar__btn',
+BTN_DISABLED: 'calendar__btn_disabled',
+BTN_PREV: 'calendar__btn_prev',
+BTN_NEXT: 'calendar__btn_next',
+HEADER: 'calendar__header'  ,
+MONTH: 'calendar__month',
+ROOT: 'calendar',
+TABLE: 'calendar__table',
+TABLE_BODY: 'calendar__table-body',
+TABLE_CELL: 'calendar__table-cell',
+TABLE_CELL_DISABLED: 'calendar__table-cell_disabled',
+TABLE_COL_HEADER: 'calendar__table-col-header',
+TABLE_HEAD: 'calendar__table-head',
+TABLE_ROW: 'calendar__table-row',
+YEAR: 'calendar__year',
+};
+
+/*
+* Default options
+*/
+const Defaults = {
+minDate: new Date(-8640000000000000),
+maxDate: new Date(8640000000000000),
+};
+
+class Calendar {
+constructor(root, {minDate, maxDate}) {
+  this._root = root;
+
+  this._minDate = minDate || Defaults.minDate;
+  this._maxDate = maxDate || Defaults.maxDate;
+
+  const today = new Date();
+  this._month = today.getMonth();
+  this._year = today.getFullYear();
+  
+  this._createUi();
+}
+
+/*
+ * Public
+ */
+
+prevMonth() {
+  if (this._isMinMonth()) {
+    return;
+  }
+  
+  if (--this._month < 0) {
+    this._month += 12;
+    this._year--;
+  }
+  
+  this._updateUi();
+}
+
+nextMonth() {
+  if (this._isMaxMonth()) {
+    return;
+  }
+  
+  if (++this._month >= 12) {
+    this._month -= 12;
+    this._year++;
+  }
+  
+  this._updateUi();
+}
+
+/*
+ * Private
+ */
+
+_createUi() {
+  this._root.classList.add(ClassNames.ROOT);
+
+  const header = document.createElement('div');
+  header.className = ClassNames.HEADER;
+  
+  this._monthElem = document.createElement('span');
+  this._monthElem.className = ClassNames.MONTH;
+  header.appendChild(this._monthElem);
+  
+  header.appendChild(document.createTextNode(' '));
+  
+  this._yearElem = document.createElement('span');
+  this._yearElem.className = ClassNames.YEAR;
+  header.appendChild(this._yearElem);
+  
+  this._prevBtn = document.createElement('button');
+  this._prevBtn.classList.add(
+    ClassNames.BTN,
+    ClassNames.BTN_PREV
+  );
+  this._prevBtn.addEventListener('click', () => {
+    this.prevMonth();
+  });
+  header.appendChild(this._prevBtn);
+  
+  this._nextBtn = document.createElement('button');
+  this._nextBtn.classList.add(
+    ClassNames.BTN,
+    ClassNames.BTN_NEXT
+  );
+  this._nextBtn.addEventListener('click', () => {
+    this.nextMonth();
+  });
+  header.appendChild(this._nextBtn);
+  
+  this._root.appendChild(header);
+  
+  const table = document.createElement('table');
+  table.className = ClassNames.TABLE;
+  
+  const tableHead = document.createElement('thead');
+  tableHead.className = ClassNames.TABLE_HEAD;
+  
+  const tableHeadRow = document.createElement('tr');
+  tableHeadRow.className = ClassNames.TABLE_ROW;
+  
+  for (const day of DayNames) {
+    const colHeader = document.createElement('th');
+    colHeader.scope = 'col';
+    colHeader.className = ClassNames.TABLE_COL_HEADER;
+    colHeader.textContent = day;
+    tableHeadRow.appendChild(colHeader);
+  }
+  
+  tableHead.appendChild(tableHeadRow);
+  
+  table.appendChild(tableHead);
+  
+  this._tableBody = document.createElement('tbody');
+  this._tableBody.className = ClassNames.TABLE_BODY;
+  this._tableBody.addEventListener('click', (event) => {
+    const target = event.target;
+
+    if (
+      target.classList.contains(ClassNames.TABLE_CELL) &&
+      target.dataset.date
+    ) {
+      const event = new CustomEvent(Events.DATE_SELECTED, {
+        detail: {
+          date: new Date(
+            this._year,
+            this._month,
+            target.dataset.date,
+          ),
+        },
+      });
+      
+      this._root.dispatchEvent(event);
+    }
+  });
+  table.appendChild(this._tableBody);
+  
+  this._root.appendChild(table);
+  
+  this._updateUi();
+}
+
+_updateUi() {
+  this._monthElem.textContent = MonthNames[this._month];
+  this._yearElem.textContent = this._year;
+
+  if (this._isMinMonth()) {
+    this._prevBtn.classList.add(ClassNames.BTN_DISABLED);
+  } else {
+    this._prevBtn.classList.remove(ClassNames.BTN_DISABLED);
+  }
+  
+  if (this._isMaxMonth()) {
+    this._nextBtn.classList.add(ClassNames.BTN_DISABLED);
+  } else {
+    this._nextBtn.classList.remove(ClassNames.BTN_DISABLED);
+  }
+
+  this._tableBody.innerHTML = '';
+  
+  const date = new Date(this._year, this._month, 1);
+  date.setDate(1 - date.getDay());
+  
+  do {
+    const row = document.createElement('tr');
+    
+    for (let i = 0; i < 7; i++) {
+      const cell = document.createElement('td');
+      cell.classList.add(ClassNames.TABLE_CELL);
+      
+      if (date.getMonth() == this._month) {
+        cell.textContent = date.getDate();
+        
+        if (
+          (this._minDate.getTime() <= date.getTime()) &&
+          (this._maxDate.getTime() >= date.getTime())
+        ) {
+          cell.dataset.date = date.getDate();
+        } else {
+          cell.classList.add(ClassNames.TABLE_CELL_DISABLED);
+        }
+      }
+
+      row.appendChild(cell);
+
+      date.setDate(date.getDate() + 1);
+    }
+    
+    this._tableBody.appendChild(row);
+  } while (date.getMonth() == this._month);
+}
+
+_isMinMonth() {
+  return (
+    (this._month == this._minDate.getMonth()) &&
+    (this._year == this._minDate.getFullYear())
+  );
+}
+
+_isMaxMonth() {
+  return (
+    (this._month == this._maxDate.getMonth()) &&
+    (this._year == this._maxDate.getFullYear())
+  );
+}
+}
+
+window.onload = () => {
+const calendar = document.getElementById('calendar');
+if (calendar != null) {
+  const today = new Date();
+  
+  new Calendar(calendar, {
+    minDate: new Date(
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate()
+    ),
+    maxDate: new Date(
+      today.getFullYear() + 1,
+      today.getMonth(),
+      today.getDate()
+    ),
+  });
+  
+  calendar.addEventListener(Events.DATE_SELECTED, (event) => {
+    const {date} = event.detail;
+    
+    const year = date.getFullYear();
+    let month = (date.getMonth() + 1);
+    if (month < 10) {
+      month = '0' + month;
+    }
+    let day = date.getDate();
+    if (day < 10) {
+      day = '0' + day;
+    }
+    
+  
+    alert(`${day}/${month}/${year}`);
+  });
+}
+};
+
+  </script>
 
       
     <!-- footer starts here -->
-    <div class="window-wrapper" id="custom-step1-footer">
+    <div class="window-wrapper" id="approve-footer">
+        <div id="mid-text">
 
-        
-        <!-- Whole container of footer -->
-        <div class="container-fluid" id="bottom-text">
-            <div class="row" id="row-margin-footer">
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h6> Info </h6>
-                            <a class="footer-link" href="#"> Apply Online </a><br>
-                            <a class="footer-link" href="#"> Contact Us </a><br>
-                            <a class="footer-link" href="#"> About US </a><br>
-                            <a class="footer-link" href="#"> FAQ's </a><br>
-                            <a class="footer-link" href="#"> GDPR </a><br>
-                            <a class="footer-link" href="#"> Disclaimer </a><br>
-                            <a class="footer-link" href="#"> Sitemap </a><br>
-                            <a class="footer-link" href="#"> Terms and Conditions </a><br>
-                            <a class="footer-link" href="#"> Regulations </a><br>
-                        </div>
-                        <div class="col-md-3">
-                            <h6> Van Size </h6>
-                            <a class="footer-link" href="#"> Micro Vans </a><br>
-                            <a class="footer-link" href="#"> Small Vans </a><br>
-                            <a class="footer-link" href="#"> Mid Size Van </a><br>
-                            <a class="footer-link" href="#"> Large Van </a><br>
-                            <a class="footer-link" href="#"> Specialist Van </a><br>
-                            <a class="footer-link" href="#"> Pickup </a><br>
-                            <a class="footer-link" href="#"> Tipper and Dropside </a><br>
-                            <a class="footer-link" href="#"> Leasing </a><br>
-                        </div>
-                        <div class="col-md-3">
-                            <h6> Manufacturers </h6>
-                            <a class="footer-link" href="#"> Ford </a><br>
-                            <a class="footer-link" href="#"> Volkswagen </a><br>
-                            <a class="footer-link" href="#"> Mercedes </a><br>
-                            <a class="footer-link" href="#"> Renault </a><br>
-                            <a class="footer-link" href="#"> Vauxhall </a><br>
-                            <a class="footer-link" href="#"> More >> </a><br>
-                        </div>
-                        <div class="col-md-3">
-                            <h6> Van Leasing Live </h6>
-                            <a class="footer-link" href="#"> Reviews </a><br>
-                            <a class="footer-link" href="#"> Twitter </a><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div id="contact"> 
-                        <h1> 0800 027 3923 </h1>
-                        <h4> enquiries@vanleasing.com </h4>
-                        <img id="vlc_logo" src="rclogo.png">
-                    </div>
-                 </div>
-            </div>    
-        </div>
+            <!-- button footer end here -->                    
+            <!-- Whole container of footer -->
+            <div class="container" id="bottom-text">
+              <div class="row" >  
+                  <div class="col-md-8" id="bottom-link">
+                      <div class="row">
+                          <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                              <h6> Info </h6>
+                              <a class="footer-link" href="#"> Apply Online </a><br>
+                              <a class="footer-link" href="#"> Contact Us </a><br>
+                              <a class="footer-link" href="#"> About US </a><br>
+                              <a class="footer-link" href="#"> FAQ's </a><br>
+                              <a class="footer-link" href="#"> GDPR </a><br>
+                              <a class="footer-link" href="#"> Disclaimer </a><br>
+                              <a class="footer-link" href="#"> Sitemap </a><br>
+                              <a class="footer-link" href="#"> Terms and Conditions </a><br>
+                              <a class="footer-link" href="#"> Regulations </a><br>
+                          </div>
+                          <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                              <h6> Van Size </h6>
+                              <a class="footer-link" href="#"> Micro Vans </a><br>
+                              <a class="footer-link" href="#"> Small Vans </a><br>
+                              <a class="footer-link" href="#"> Mid Size Van </a><br>
+                              <a class="footer-link" href="#"> Large Van </a><br>
+                              <a class="footer-link" href="#"> Specialist Van </a><br>
+                              <a class="footer-link" href="#"> Pickup </a><br>
+                              <a class="footer-link" href="#"> Tipper and Dropside </a><br>
+                              <a class="footer-link" href="#"> Leasing </a><br>
+                          </div>
+                          <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                              <h6> Manufacturers </h6>
+                              <a class="footer-link" href="#"> Ford </a><br>
+                              <a class="footer-link" href="#"> Volkswagen </a><br>
+                              <a class="footer-link" href="#"> Mercedes </a><br>
+                              <a class="footer-link" href="#"> Renault </a><br>
+                              <a class="footer-link" href="#"> Vauxhall </a><br>
+                              <a class="footer-link" href="#"> More >> </a><br>
+                          </div>
+                          <div class="col-6 col-md-3 col-sm-6" id="bottom-link">
+                              <h6> Van Leasing Live </h6>
+                              <a class="footer-link" href="#"> Reviews </a><br>
+                              <a class="footer-link" href="#"> Twitter </a><br>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col col-md-4">
+                      <div id="contact"> 
+                          <h4 id="contact-number"> 0800 027 3923 </h4>
+                          <h4 id="contact-email"> enquiries@vanleasing.com </h4>
+                          <img id="vlc_logo-bottom" class="img-fluid"  src="../../VLC-Images/reusable-image/rclogo.png">
+                          
+                      </div>
+                   </div>
+              </div>    
+            </div>
         <!-- Whole container of footer -->
         
         
@@ -147,8 +448,7 @@
             <div id="bottom-center-text">
                 First European Finance (Scotland) Limited trading as vanleasing.com is authorised and regulated by the Financial Conduct Authority as a credit broker, not a lender.<br> RFL House, Anderson Street, Dunblane, FK15 9AJ | FRN Number: 671818 | © 2018
                 <br><br>
-                <img id="bvra-logo" src="../../VLC-Images/LeasePlan.png">
-                <img id="bvra-logo" src="../../VLC-Images/Bvrla.png">
+                <img id="bvra-logo" src="../../VLC-Images/reusable-image/Bvrla.png">
             </div>
             <!-- Most bottom part text ends here -->
         
