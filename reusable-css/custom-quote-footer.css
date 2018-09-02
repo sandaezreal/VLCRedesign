@@ -1,0 +1,352 @@
+/* VARIABLES ------------------------------------------------- */
+
+:root {
+    --footer-v1:   url(../VLC-Images/reusable-image/footer-v1.png);
+    --footer-v2: url(../VLC-Images/reusable-image/footer-v2.png);
+    --footer-v3:  url(../VLC-Images/reusable-image/footer-v3.png);
+ 
+    --approveme-v1: url(../VLC-Images/reusable-image/footer-v3.png);
+
+    --privacy-v1: url(../VLC-Images/reusable-image/footer-v1.png);
+
+    --about-us-footer-v1: url(../VLC-Images/reusable-image/footer-v1.png);
+    --height: 850px; /* custom-quote-approval     */
+    --padding: 150px; /* step 1 */
+    --font-stack-primary: 'Raleway', sans-serif;
+  
+    --font-stack-secondary: 'Bree Serif', serif;
+    
+ 
+  }
+
+
+
+
+  h4{
+    font-size: 23px;
+  }
+
+  #contact-number {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+  }
+
+  #contact-email{
+      font-size: 30px;
+      color: white !important;
+  }
+
+/* home-footer-container starts here */
+#custome-quote-footer-v1 {
+    background-image:    var(--footer-v1); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;  
+}
+
+#custome-quote-footer-v2 {
+    background-image: var(--footer-v2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: auto;
+    color: black;  
+}
+
+#custome-quote-footer-v3 { 
+    background-image: var(--footer-v3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: auto;
+    color: black;  
+}
+
+/* home-footer-container starts here */
+#approve-footer { 
+    /*border-top: 3px solid lightgray; */
+    background-image: var(--approveme-v1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: auto;
+    color: black;  
+}
+
+/* home-footer-container starts here */
+#privacy-footer {
+
+    background-image: var(--privacy-v1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: auto;
+    color: black;  
+}
+
+
+#about-us-footer-v1 {
+    background-image: var( --about-us-footer-v1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#052d87 !important;
+    height: auto;
+    color: black;  
+}
+#row-margin{
+    display: inline;
+}
+/* mid-text starts here */
+#mid-text {
+    padding-top: 127px;
+    text-align: center;
+}
+/* mid-text ends here */
+
+/* button get my car starts here */
+#btn-chevron {
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+}
+/* button get my car en ds here    background-position:1055px 260px;*/
+
+
+/* button get my car ends here */
+
+#vlc_logo-bottom {
+    width: 200px;
+    margin-left: 91px;
+}
+
+#row-margin-footer{
+    padding-top: 150px;
+}
+
+#contact-email {
+    font-size: 24px;
+}
+
+/* Links, Contact number, email and logo starts here */
+#bottom-text {
+    font-size: 13px;
+    color: white;
+    padding-top: 400px;
+    text-align: left;
+}
+/* Links, Contact number, email and logo ends here */
+
+table#footer-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Most bottom part text starts here */
+#bottom-center-text {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+/* Most bottom part text ends here */
+
+#bvra-logo {
+    width: 10%;
+}
+
+#bvra-lease{
+    width: 7%;
+}
+
+/* footer links hover and color starts here */
+.footer-link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+
+/* footer links hover and color starts here */
+
+
+/*========= Non- Mobile First Method ============ */
+
+/* Large Devices, Wide Screens */ 
+@media only screen and (max-width: 1500px){
+    #contact-number {
+        font-size: 2.8em;
+    }
+    #contact-email{
+        font-size: 1.8vw;
+    }
+    #bottom-text{
+        padding-top: 339px;
+        padding-left: 0px;
+        
+    }
+}
+
+
+@media only screen and (max-width : 1200px) {
+#bottom-text{
+    padding-top: 316px;
+    padding-left: 0px;
+}
+#contact-number {
+    font-size: 2.7em;
+}
+#contact-email {
+    font-size: 2.1vw;
+}
+#vlc_logo-bottom {
+    width: 178px;
+    margin-left: 81px;
+}
+#custome-quote-footer-v1 ,#custome-quote-footer-v2, #custome-quote-footer-v3{
+    padding-bottom: 0px;
+}
+}
+
+/* Medium Devices, Desktop */ 
+@media only screen and (max-width : 998px) {
+
+    #vlc_logo-bottom {
+        width: 70%;
+        margin-left: 53px;
+    }
+    #bottom-text {
+        padding-left: 0px;
+    }
+    #contact-number {
+        letter-spacing: 1px;
+        font-size: 222%;
+}
+    
+    #contact-email {
+        font-size: 130%;
+    }
+    #contact-number > * {
+        font-size: 1.5em;
+      }
+      
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+
+    #bottom-link{
+        order: 2;
+    }
+    #vlc_logo-bottom {
+        content:url(../VLC-Images/reusable-image/vlcbottom_logo.png);
+        text-align: center;
+    }
+    #bvra-logo {
+        width: 21%;
+    }
+    
+    #bvra-lease{
+        display: none;
+    }
+
+     #bottom-text[href="quickapproval.html"]{
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 454px;
+    }
+    #bottom-text{
+        text-align: center;
+        padding-left: 0px;
+        padding-top:  606px;
+    }
+   
+    #btn-quote {
+        margin-bottom: 84px;
+    }
+    #contact-number {
+        font-size: 4.9vw;
+    }
+    #contact-email {
+        font-size: 2.8vw;
+    }
+    #vlc_logo-bottom {
+        width: 176px; 
+        margin-left: 36px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    .container {
+        width: 100%;
+
+    }
+    #custome-quote-footer-v1 ,#custome-quote-footer-v2, #custome-quote-footer-v3{
+        padding-top: 0px;
+        padding-bottom: 600px;
+        height: 803px;
+    }   
+    #vlc_logo-bottom {
+        content:url(../VLC-Images/reusable-image/vlcbottom_logo.png);
+
+    }
+    #row-margin-footer{
+        padding-top: 0px;
+    }
+    #bottom-text {
+        font-size: 13px;
+        color: white;
+        padding-top: 0px;
+        text-align: center;
+
+    }
+    #bottom-link{
+    text-align: center;
+    background-color: #40ae49;
+
+
+}
+#contact{
+    margin-top: 50px;
+    
+}
+
+#bvra-logo {
+    width: 21%;
+}
+
+#bvra-lease{
+    display: none;
+}
+#mid-text {
+    padding-top: 409px;
+}
+        
+#bottom-center-text {
+    background-color: #40ae49;
+
+
+}
+#contact-number {
+    font-size: 8.9vw;
+}
+
+#contact-email {
+    font-size: 5.4vw;
+}
+
+
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width : 320px){
+    #mid-text {
+        padding-top: 416px;
+    }
+}
+
