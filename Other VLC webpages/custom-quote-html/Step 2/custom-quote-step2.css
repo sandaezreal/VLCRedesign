@@ -284,17 +284,23 @@ p {
         padding-left: 0px;
     }
     .bnCalendar {
-        margin-left: 112px;
-    
+        margin-left: 0px;
+        width: 100%;
     }
     .bnWrappSection1 {
-        width: 711px;
+        max-width: 100%;
          padding-right: 0px;
+    }
+    #btn-back {
+        margin-left: 150px
     }
 }
 /* Custom, Iphone Retina */
 @media only screen and (max-width : 320px){
     .bnDay {
         display: none;
+    }
+    #btn-back {
+        margin-left: 100px
     }
 }
